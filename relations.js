@@ -1,157 +1,157 @@
 var brothers = [
   {
     "name": "Joseph Andujo",
-    "pledgeclass": "unknown",
+    "pledgeclass": "Winter 2016",
     "graduated": true,
     "inactive": "FALSE",
-    "familystarted": "Unknown"
+    "familystarted": "Lost"
   },
   {
     "name": "Robert Blackmon",
-    "pledgeclass": "unknown",
+    "pledgeclass": "Winter 2016",
     "graduated": true,
     "inactive": "FALSE",
-    "familystarted": "Unknown"
+    "familystarted": "Lost"
   },
   {
     "name": "David D'Angelo",
-    "pledgeclass": "unknown",
+    "pledgeclass": "Winter 2016",
     "graduated": true,
     "inactive": "FALSE",
-    "familystarted": "Unknown"
+    "familystarted": "Lost"
   },
   {
     "name": "Phillip Hatten",
-    "pledgeclass": "unknown",
+    "pledgeclass": "Winter 2016",
     "graduated": true,
     "inactive": "FALSE",
-    "familystarted": "Unknown"
+    "familystarted": "Lost"
   },
   {
     "name": "Brian Eckerle",
-    "pledgeclass": "unknown",
+    "pledgeclass": "Winter 2016",
     "graduated": true,
     "inactive": "FALSE",
-    "familystarted": "Unknown"
+    "familystarted": "Lost"
   },
   {
     "name": "Danner Goodwin",
-    "pledgeclass": "unknown",
+    "pledgeclass": "Winter 2016",
     "graduated": true,
     "inactive": "FALSE",
-    "familystarted": "Unknown"
+    "familystarted": "Lost"
   },
   {
     "name": "Joseph Kerstiens",
-    "pledgeclass": "unknown",
+    "pledgeclass": "Winter 2016",
     "graduated": true,
     "inactive": "FALSE",
-    "familystarted": "Unknown"
+    "familystarted": "Lost"
   },
   {
     "name": "Massey Grass",
-    "pledgeclass": "unknown",
+    "pledgeclass": "Winter 2016",
     "graduated": true,
     "inactive": true,
-    "familystarted": "Unknown"
+    "familystarted": "Lost"
   },
   {
     "name": "Justin Hancock",
-    "pledgeclass": "unknown",
+    "pledgeclass": "Winter 2016",
     "graduated": true,
     "inactive": "FALSE",
-    "familystarted": "Unknown"
+    "familystarted": "Lost"
   },
   {
     "name": "William Harris",
-    "pledgeclass": "unknown",
+    "pledgeclass": "Winter 2016",
     "graduated": true,
     "inactive": "FALSE",
-    "familystarted": "Unknown"
+    "familystarted": "Lost"
   },
   {
     "name": "Quinn Laurentino",
-    "pledgeclass": "unknown",
+    "pledgeclass": "Winter 2016",
     "graduated": true,
     "inactive": true,
-    "familystarted": "Unknown"
+    "familystarted": "Lost"
   },
   {
     "name": "Ryan Phillips",
-    "pledgeclass": "unknown",
+    "pledgeclass": "Winter 2016",
     "graduated": true,
     "inactive": "FALSE",
-    "familystarted": "Unknown"
+    "familystarted": "Lost"
   },
   {
     "name": "Dustin Poteet",
-    "pledgeclass": "unknown",
+    "pledgeclass": "Winter 2016",
     "graduated": true,
     "inactive": "FALSE",
-    "familystarted": "Unknown"
+    "familystarted": "Lost"
   },
   {
     "name": "Carson Powell",
-    "pledgeclass": "unknown",
+    "pledgeclass": "Winter 2016",
     "graduated": true,
     "inactive": true,
-    "familystarted": "Unknown"
+    "familystarted": "Lost"
   },
   {
     "name": "Jesse Smith",
-    "pledgeclass": "unknown",
+    "pledgeclass": "Winter 2016",
     "graduated": true,
     "inactive": "FALSE",
-    "familystarted": "Unknown"
+    "familystarted": "Lost"
   },
   {
     "name": "Phillip Taylor",
-    "pledgeclass": "unknown",
+    "pledgeclass": "Winter 2016",
     "graduated": true,
     "inactive": "FALSE",
-    "familystarted": "Unknown"
+    "familystarted": "Lost"
   },
   {
     "name": "Max Schuett",
-    "pledgeclass": "unknown",
+    "pledgeclass": "Winter 2016",
     "graduated": true,
     "inactive": "FALSE",
-    "familystarted": "Unknown"
+    "familystarted": "Lost"
   },
   {
     "name": "Davis Shannon",
-    "pledgeclass": "unknown",
+    "pledgeclass": "Winter 2016",
     "graduated": true,
     "inactive": true,
-    "familystarted": "Unknown"
+    "familystarted": "Lost"
   },
   {
     "name": "Alex Shober",
-    "pledgeclass": "unknown",
+    "pledgeclass": "Winter 2016",
     "graduated": true,
     "inactive": "FALSE",
-    "familystarted": "Unknown"
+    "familystarted": "Lost"
   },
   {
     "name": "Shemar Slack",
-    "pledgeclass": "unknown",
+    "pledgeclass": "Winter 2016",
     "graduated": true,
     "inactive": "FALSE",
-    "familystarted": "Unknown"
+    "familystarted": "Lost"
   },
   {
     "name": "Ben Speed",
-    "pledgeclass": "unknown",
+    "pledgeclass": "Winter 2016",
     "graduated": true,
     "inactive": "FALSE",
-    "familystarted": "Unknown"
+    "familystarted": "Lost"
   },
   {
     "name": "Edward Lord",
     "pledgeclass": "Fall 2017",
     "graduated": true,
     "inactive": "FALSE",
-    "familystarted": "Unknown"
+    "familystarted": "Lost"
   },
   {
     "name": "Kyle Xhajanka",
@@ -277,7 +277,7 @@ var brothers = [
     "pledgeclass": "Fall 2018",
     "graduated": true,
     "inactive": "FALSE",
-    "familystarted": "Unknown"
+    "familystarted": "Lost"
   },
   {
     "name": "JT Perrigin",
@@ -319,14 +319,14 @@ var brothers = [
     "pledgeclass": "Fall 2018",
     "graduated": true,
     "inactive": "FALSE",
-    "familystarted": "Unknown"
+    "familystarted": "Lost"
   },
   {
     "name": "Nathan Ballard",
     "pledgeclass": "Fall 2018",
     "graduated": true,
     "inactive": "FALSE",
-    "familystarted": "Unknown"
+    "familystarted": "Lost"
   },
   {
     "name": "Sam Boggs",
@@ -354,21 +354,21 @@ var brothers = [
     "pledgeclass": "Fall 2019",
     "graduated": true,
     "inactive": "FALSE",
-    "familystarted": "Unknown"
+    "familystarted": "Lost"
   },
   {
     "name": "Jason Schwartz",
     "pledgeclass": "Fall 2019",
     "graduated": true,
     "inactive": true,
-    "familystarted": "Unknown"
+    "familystarted": "Lost"
   },
   {
     "name": "Ivy Wells",
     "pledgeclass": "Fall 2019",
     "graduated": true,
     "inactive": "FALSE",
-    "familystarted": "Unknown"
+    "familystarted": "Lost"
   },
   {
     "name": "Bekher Salem",
@@ -487,28 +487,28 @@ var brothers = [
     "pledgeclass": "Fall 2020",
     "graduated": true,
     "inactive": "FALSE",
-    "familystarted": "Unknown"
+    "familystarted": "Lost"
   },
   {
     "name": "Walker Barnes",
     "pledgeclass": "Fall 2020",
     "graduated": true,
     "inactive": "FALSE",
-    "familystarted": "Unknown"
+    "familystarted": "Lost"
   },
   {
     "name": "Nick Carl",
     "pledgeclass": "Fall 2020",
     "graduated": true,
     "inactive": true,
-    "familystarted": "Unknown"
+    "familystarted": "Lost"
   },
   {
     "name": "Austin Gray",
     "pledgeclass": "Fall 2020",
     "graduated": true,
     "inactive": "FALSE",
-    "familystarted": "Unknown"
+    "familystarted": "Lost"
   },
   {
     "name": "Josh Jennings",
@@ -690,7 +690,7 @@ var brothers = [
     "pledgeclass": "Spring 2021",
     "graduated": true,
     "inactive": "FALSE",
-    "familystarted": "Unknown"
+    "familystarted": "Lost"
   },
   {
     "name": "Brooks Murphree",
