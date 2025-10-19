@@ -1,2116 +1,5077 @@
 var brothers = [
   {
-    "name": "Jack W.",
+    "name": "Joseph Andujo",
+    "pledgeclass": "unknown",
     "graduated": true,
-    "familystarted": "Saints"
+    "inactive": "FALSE",
+    "familystarted": "Unknown"
   },
   {
-    "name": "Berek Waldman",
-    "big": "Jack W.",
-    "graduated": true
-  },
-  {
-    "name": "Robert Terzoli",
-    "big": "Berek Waldman",
-    "graduated": true
-  },
-  {
-    "name": "Matt Louis",
-    "big": "Chris Alley",
-    "graduated": true
-  },
-  {
-    "name": "Eric Pedroza",
-    "big": "Robert Terzoli",
-    "graduated": true
-  },
-  {
-    "name": "Elijah Kenan",
-    "big": "Robert Terzoli",
-    "graduated": true
-  },
-  {
-    "name": "Potragent Phuong",
-    "big": "Andy Liu",
-    "graduated": true
-  },
-  {
-    "name": "Michael Huai",
-    "big": "Andy Liu",
-    "graduated": true
-  },
-  {
-    "name": "Nick Yee",
-    "big": "Eric Pedroza",
-    "graduated": true
-  },
-  {
-    "name": "Grant Bishop",
-    "big": "Eric Pedroza",
-    "graduated": true
-  },
-  {
-    "name": "Nick Karp",
-    "big": "Justin Hutton",
+    "name": "Robert Blackmon",
+    "pledgeclass": "unknown",
     "graduated": true,
-    "familystarted": "Liberators"
+    "inactive": "FALSE",
+    "familystarted": "Unknown"
   },
   {
-    "name": "Daniel Kwasnick",
-    "big": "Justin Hutton",
-    "pledgeclass": "Spring 2011",
-    "graduated": true
-  },
-  {
-    "name": "Jered Vestal",
-    "big": "Justin Hutton",
-    "graduated": true
-  },
-  {
-    "name": "Arthur Yeung",
-    "big": "Jered Vestal",
-    "graduated": true
-  },
-  {
-    "name": "Andy Hindoyan",
+    "name": "David D'Angelo",
+    "pledgeclass": "unknown",
     "graduated": true,
-    "familystarted": "Regulators"
+    "inactive": "FALSE",
+    "familystarted": "Unknown"
   },
   {
-    "name": "Trevor Maddison",
+    "name": "Phillip Hatten",
+    "pledgeclass": "unknown",
     "graduated": true,
-    "familystarted": "Regulators"
+    "inactive": "FALSE",
+    "familystarted": "Unknown"
   },
   {
-    "name": "Garrett Morgan",
+    "name": "Brian Eckerle",
+    "pledgeclass": "unknown",
     "graduated": true,
-    "familystarted": "The Family"
+    "inactive": "FALSE",
+    "familystarted": "Unknown"
   },
   {
-    "name": "Suraj Patel",
-    "big": "Ron Marconnet",
-    "graduated": true
-  },
-  {
-    "name": "David Urdaneta",
-    "big": "Ron Marconnet",
-    "graduated": true
-  },
-  {
-    "name": "Ryan Lewe",
-    "big": "Ron Marconnet",
-    "graduated": true
-  },
-  {
-    "name": "Eric Yang",
-    "big": "David Urdaneta",
-    "graduated": true
-  },
-  {
-    "name": "David Louie",
-    "big": "Ryan Lewe",
-    "pledgeclass": "Spring 2011",
-    "graduated": true
-  },
-  {
-    "name": "Tim Egan",
-    "big": "Andy Hindoyan",
-    "graduated": true
-  },
-  {
-    "name": "West Cohan",
-    "big": "Andy Hindoyan",
-    "graduated": true
-  },
-  {
-    "name": "Austin Tate",
-    "big": "Tim Egan",
-    "graduated": true
-  },
-  {
-    "name": "Mark Reith",
-    "big": "Tim Egan",
-    "graduated": true
-  },
-  {
-    "name": "Josh May",
-    "big": "Trevor Maddison",
-    "graduated": true
-  },
-  {
-    "name": "Sachin Nediyanchath",
-    "big": "Josh May",
-    "graduated": true
-  },
-  {
-    "name": "Sean Atamdede",
-    "big": "Sachin Nediyanchath",
-    "graduated": true
-  },
-  {
-    "name": "Addison Yang",
-    "big": "Sachin Nediyanchath",
-    "graduated": true
-  },
-  {
-    "name": "Ron Marconnet",
+    "name": "Danner Goodwin",
+    "pledgeclass": "unknown",
     "graduated": true,
-    "familystarted": "Regulators"
+    "inactive": "FALSE",
+    "familystarted": "Unknown"
   },
   {
-    "name": "Mallvy Kahal",
-    "big": "Garrett Morgan",
-    "graduated": true
-  },
-  {
-    "name": "Adam Caparco",
-    "big": "Garrett Morgan",
-    "graduated": true
-  },
-  {
-    "name": "Jae-Ho Nam",
-    "big": "Mallvy Kahal",
-    "graduated": true
-  },
-  {
-    "name": "Philippe Videau",
-    "big": "Henry Okoiroke",
-    "graduated": true
-  },
-  {
-    "name": "Matt Abrams",
+    "name": "Joseph Kerstiens",
+    "pledgeclass": "unknown",
     "graduated": true,
-    "familystarted": "The Family"
+    "inactive": "FALSE",
+    "familystarted": "Unknown"
   },
   {
-    "name": "Brian Trinh",
-    "big": "Matt Abrams",
-    "graduated": true
-  },
-  {
-    "name": "Will Ikerd",
+    "name": "Massey Grass",
+    "pledgeclass": "unknown",
     "graduated": true,
-    "familystarted": "The Sith and Brandon Louey"
+    "inactive": true,
+    "familystarted": "Unknown"
   },
   {
-    "name": "Josh Goldman",
-    "big": "Will Ikerd",
-    "graduated": true
-  },
-  {
-    "name": "Maneesh Karna",
-    "big": "Will Ikerd",
-    "graduated": true
-  },
-  {
-    "name": "Brandon Louey",
-    "big": "Josh Goldman",
-    "graduated": true
-  },
-  {
-    "name": "Justin Hutton",
-    "big": "Robert Terzoli",
-    "pledgeclass": "Spring 2010",
-    "graduated": true
-  },
-  {
-    "name": "Henry Okoiroke",
-    "pledgeclass": "Fall 2010",
+    "name": "Justin Hancock",
+    "pledgeclass": "unknown",
     "graduated": true,
-    "familystarted": "The Family"
+    "inactive": "FALSE",
+    "familystarted": "Unknown"
   },
   {
-    "name": "Chris Alley",
-    "big": "Berek Waldman",
-    "pledgeclass": "Spring 2011",
-    "graduated": true
-  },
-  {
-    "name": "Andy Liu",
-    "big": "Berek Waldman",
-    "pledgeclass": "Fall 2010",
-    "graduated": true
-  },
-  {
-    "name": "Alan Covarrubias",
-    "big": "Austin Tate",
-    "pledgeclass": "Fall 2011",
-    "graduated": true
-  },
-  {
-    "name": "Alex Jimenez",
-    "big": "West Cohan",
-    "pledgeclass": "Fall 2011",
-    "graduated": true
-  },
-  {
-    "name": "Alex Sanciangco",
-    "big": "Henry Okoiroke",
-    "pledgeclass": "Winter 2012",
-    "graduated": true
-  },
-  {
-    "name": "James Robarge",
-    "big": "Sachin Nediyanchath",
-    "pledgeclass": "Winter 2012",
-    "graduated": true
-  },
-  {
-    "name": "Nick Westman",
-    "big": "Robert Terzoli",
-    "pledgeclass": "Spring 2012",
+    "name": "William Harris",
+    "pledgeclass": "unknown",
     "graduated": true,
-    "familystarted": "Liberators"
+    "inactive": "FALSE",
+    "familystarted": "Unknown"
   },
   {
-    "name": "John Sy",
-    "big": "Josh Goldman",
-    "pledgeclass": "Spring 2012",
-    "graduated": true
-  },
-  {
-    "name": "Chris Spencer",
-    "big": "Andy Liu",
-    "pledgeclass": "Fall 2012",
-    "graduated": true
-  },
-  {
-    "name": "Will Howard",
-    "big": "Matt Louis",
-    "pledgeclass": "Fall 2012",
-    "graduated": true
-  },
-  {
-    "name": "Johnny Gray",
-    "big": "Justin Hutton",
-    "pledgeclass": "Fall 2012",
+    "name": "Quinn Laurentino",
+    "pledgeclass": "unknown",
     "graduated": true,
-    "familystarted": "Liberators"
+    "inactive": true,
+    "familystarted": "Unknown"
   },
   {
-    "name": "Kevin Patterson",
-    "big": "Elijah Kenan",
-    "pledgeclass": "Fall 2012",
-    "graduated": true
-  },
-  {
-    "name": "Gabe Pollock",
-    "big": "Elijah Kenan",
-    "pledgeclass": "Fall 2012",
-    "graduated": true
-  },
-  {
-    "name": "Aaron Narayan",
-    "big": "David Louie",
-    "pledgeclass": "Fall 2012",
-    "graduated": true
-  },
-  {
-    "name": "James Wu",
-    "big": "Mark Reith",
-    "pledgeclass": "Fall 2012",
-    "graduated": true
-  },
-  {
-    "name": "Will Henrikson",
-    "big": "Alex Jimenez",
-    "pledgeclass": "Fall 2012",
-    "graduated": true
-  },
-  {
-    "name": "Jonathan Mendoza",
-    "big": "Sachin Nediyanchath",
-    "pledgeclass": "Fall 2012",
-    "graduated": true
-  },
-  {
-    "name": "Nick Blackburn",
-    "big": "James Robarge",
-    "pledgeclass": "Fall 2012",
-    "graduated": true
-  },
-  {
-    "name": "Joseph Dominguez",
-    "big": "Mallvy Kahal",
-    "pledgeclass": "Fall 2012",
-    "graduated": true
-  },
-  {
-    "name": "Joe Mudy",
-    "big": "Philippe Videau",
-    "pledgeclass": "Fall 2012",
-    "graduated": true
-  },
-  {
-    "name": "David Boudreau",
-    "big": "Henry Okoiroke",
-    "pledgeclass": "Fall 2012",
-    "inactive": true
-  },
-  {
-    "name": "Matt Pennington",
-    "big": "Alex Sanciangco",
-    "pledgeclass": "Fall 2012",
-    "graduated": true
-  },
-  {
-    "name": "Carlos Zamudio",
-    "big": "Matt Abrams",
-    "pledgeclass": "Fall 2012",
-    "graduated": true
-  },
-  {
-    "name": "Doug Waters",
-    "big": "Nick Westman",
-    "pledgeclass": "Fall 2012",
-    "graduated": true
-  },
-  {
-    "name": "Cameron Shabahang",
-    "big": "Nick Karp",
-    "pledgeclass": "Fall 2012",
-    "graduated": true
-  },
-  {
-    "name": "Richard Wang",
-    "big": "Chris Alley",
-    "pledgeclass": "Winter 2013",
-    "graduated": true
-  },
-  {
-    "name": "Ahmed Hamade",
-    "big": "Elijah Kenan",
-    "pledgeclass": "Winter 2013",
-    "graduated": true
-  },
-  {
-    "name": "Daniel Jagoda",
-    "big": "Chris Spencer",
-    "pledgeclass": "Winter 2013",
-    "graduated": true
-  },
-  {
-    "name": "Jeremy Rodriguez",
-    "big": "Alan Covarrubias",
-    "pledgeclass": "Winter 2013",
-    "graduated": true
-  },
-  {
-    "name": "Daniel Salas",
-    "big": "James Robarge",
-    "pledgeclass": "Winter 2013",
-    "graduated": true
-  },
-  {
-    "name": "Raymond Mai",
-    "big": "Nick Blackburn",
-    "pledgeclass": "Winter 2013",
-    "graduated": true
-  },
-  {
-    "name": "Ted Mercado",
-    "big": "Garrett Morgan",
-    "pledgeclass": "Winter 2013",
-    "graduated": true
-  },
-  {
-    "name": "Josh Uberti",
-    "big": "Cameron Shabahang",
-    "pledgeclass": "Winter 2013",
-    "graduated": true
-  },
-  {
-    "name": "Eric Lim",
-    "big": "Matt Louis",
-    "pledgeclass": "Spring 2013",
-    "graduated": true
-  },
-  {
-    "name": "Jason Allen",
-    "big": "Ahmed Hamade",
-    "pledgeclass": "Spring 2013",
-    "graduated": true
-  },
-  {
-    "name": "Jose Garcia",
-    "big": "Daniel Jagoda",
-    "pledgeclass": "Spring 2013",
-    "graduated": true
-  },
-  {
-    "name": "Brian Song",
-    "big": "James Wu",
-    "pledgeclass": "Spring 2013",
-    "graduated": true
-  },
-  {
-    "name": "Nate Fischer",
-    "big": "Alex Jimenez",
-    "pledgeclass": "Spring 2013",
-    "graduated": true
-  },
-  {
-    "name": "Spencer Shankle",
-    "big": "James Robarge",
-    "pledgeclass": "Spring 2013",
-    "graduated": true
-  },
-  {
-    "name": "Joey Cisneros",
-    "big": "Joseph Dominguez",
-    "pledgeclass": "Spring 2013",
-    "graduated": true
-  },
-  {
-    "name": "Charlie Ho",
-    "big": "Henry Okoiroke",
-    "pledgeclass": "Spring 2013",
-    "graduated": true
-  },
-  {
-    "name": "Ollie Cunningham",
-    "big": "Nick Karp",
-    "pledgeclass": "Spring 2013",
-    "graduated": true
-  },
-  {
-    "name": "Ryan Kay",
-    "big": "Johnny Gray",
-    "pledgeclass": "Spring 2013",
-    "graduated": true
-  },
-  {
-    "name": "Anthony Cerrato",
-    "big": "Matt Louis",
-    "pledgeclass": "Fall 2013",
-    "graduated": true
-  },
-  {
-    "name": "Victor Yu",
-    "big": "Arthur Yeung",
-    "pledgeclass": "Fall 2013",
-    "graduated": true
-  },
-  {
-    "name": "Darwin Valentine",
-    "big": "Gabe Pollock",
-    "pledgeclass": "Fall 2013",
-    "graduated": true
-  },
-  {
-    "name": "Anthony Cheung",
-    "big": "Michael Huai",
-    "pledgeclass": "Fall 2013",
-    "graduated": true
-  },
-  {
-    "name": "Kareem Barghouthi",
-    "big": "Alex Jimenez",
-    "pledgeclass": "Fall 2013",
-    "graduated": true
-  },
-  {
-    "name": "Sujith Cherukumilli",
-    "big": "Jonathan Mendoza",
-    "pledgeclass": "Fall 2013",
-    "graduated": true
-  },
-  {
-    "name": "Chris Wellbrook",
-    "big": "Spencer Shankle",
-    "pledgeclass": "Fall 2013",
-    "graduated": true
-  },
-  {
-    "name": "Sidney Aung",
-    "big": "Ted Mercado",
-    "pledgeclass": "Fall 2013",
-    "graduated": true
-  },
-  {
-    "name": "Daniel Viray",
-    "big": "Alex Sanciangco",
-    "pledgeclass": "Fall 2013",
-    "graduated": true
-  },
-  {
-    "name": "Tyler Suh",
-    "big": "Matt Pennington",
-    "pledgeclass": "Fall 2013",
-    "graduated": true
-  },
-  {
-    "name": "Joe Ryu",
-    "big": "Nick Westman",
-    "pledgeclass": "Fall 2013",
-    "graduated": true
-  },
-  {
-    "name": "Frank Wathen",
-    "big": "Nick Karp",
-    "pledgeclass": "Fall 2013",
-    "graduated": true
-  },
-  {
-    "name": "Michael Say",
-    "big": "Ollie Cunningham",
-    "pledgeclass": "Fall 2013",
-    "graduated": true
-  },
-  {
-    "name": "Ryan Eason",
-    "big": "Johnny Gray",
-    "pledgeclass": "Fall 2013",
+    "name": "Ryan Phillips",
+    "pledgeclass": "unknown",
     "graduated": true,
-    "inactive": true
+    "inactive": "FALSE",
+    "familystarted": "Unknown"
   },
   {
-    "name": "David Lee",
-    "big": "Richard Wang",
-    "pledgeclass": "Winter 2014",
-    "graduated": true
-  },
-  {
-    "name": "Zelos Zhu",
-    "big": "Jose Garcia",
-    "pledgeclass": "Winter 2014",
-    "graduated": true
-  },
-  {
-    "name": "Paul Wason",
-    "big": "Chris Wellbrook",
-    "pledgeclass": "Winter 2014",
+    "name": "Dustin Poteet",
+    "pledgeclass": "unknown",
     "graduated": true,
-    "inactive": true
+    "inactive": "FALSE",
+    "familystarted": "Unknown"
   },
   {
-    "name": "Aniket Saoji",
-    "big": "Garrett Morgan",
-    "pledgeclass": "Winter 2014",
-    "graduated": true
-  },
-  {
-    "name": "Anthony Chadwick",
-    "big": "David Boudreau",
-    "pledgeclass": "Winter 2014",
-    "graduated": true
-  },
-  {
-    "name": "Edison Lu",
-    "big": "Cameron Shabahang",
-    "pledgeclass": "Winter 2014",
+    "name": "Carson Powell",
+    "pledgeclass": "unknown",
     "graduated": true,
-    "inactive": true
+    "inactive": true,
+    "familystarted": "Unknown"
   },
   {
-    "name": "Christian Gonzalez",
-    "big": "Nick Blackburn",
-    "pledgeclass": "Winter 2014",
-    "graduated": true
-  },
-  {
-    "name": "Mitchell Bendersky",
-    "big": "Kevin Patterson",
-    "pledgeclass": "Fall 2014",
-    "graduated": true
-  },
-  {
-    "name": "Nick Ota",
-    "big": "Daniel Jagoda",
-    "pledgeclass": "Fall 2014",
-    "graduated": true
-  },
-  {
-    "name": "Blake Bergstrom",
-    "big": "Jose Garcia",
-    "pledgeclass": "Fall 2014",
-    "graduated": true
-  },
-  {
-    "name": "Niko Pappas",
-    "big": "Zelos Zhu",
-    "pledgeclass": "Fall 2014",
-    "graduated": true
-  },
-  {
-    "name": "Justin Miller",
-    "big": "Nate Fischer",
-    "pledgeclass": "Fall 2014",
-    "graduated": true
-  },
-  {
-    "name": "Andrew Alas",
-    "big": "Daniel Salas",
-    "pledgeclass": "Fall 2014",
-    "graduated": true
-  },
-  {
-    "name": "Eric Kim",
-    "big": "Tyler Suh",
-    "pledgeclass": "Fall 2014",
-    "graduated": true
-  },
-  {
-    "name": "Micah Minchow",
-    "big": "Alex Sanciangco",
-    "pledgeclass": "Fall 2014",
-    "graduated": true
-  },
-  {
-    "name": "Canaan Howard",
-    "big": "Doug Waters",
-    "pledgeclass": "Fall 2014",
+    "name": "Jesse Smith",
+    "pledgeclass": "unknown",
     "graduated": true,
-    "inactive": true
+    "inactive": "FALSE",
+    "familystarted": "Unknown"
   },
   {
-    "name": "Konrad Niemiec",
-    "big": "Ollie Cunningham",
-    "pledgeclass": "Fall 2014",
-    "graduated": true
-  },
-  {
-    "name": "Nick Massoni",
-    "big": "Johnny Gray",
-    "pledgeclass": "Fall 2014",
-    "graduated": true
-  },
-  {
-    "name": "Anthony Gonzales",
-    "big": "Ryan Kay",
-    "pledgeclass": "Fall 2014",
-    "graduated": true
-  },
-  {
-    "name": "Eric Stocker",
-    "big": "Konrad Niemiec",
-    "pledgeclass": "Winter 2015",
-    "graduated": true
-  },
-  {
-    "name": "Evan Schulz",
-    "big": "Ryan Eason",
-    "pledgeclass": "Winter 2015",
-    "graduated": true
-  },
-  {
-    "name": "Josh Castro",
-    "big": "Sujith Cherukumilli",
-    "pledgeclass": "Winter 2015",
-    "graduated": true
-  },
-  {
-    "name": "Justin Park",
-    "big": "Joe Mudy",
-    "pledgeclass": "Winter 2015",
-    "graduated": true
-  },
-  {
-    "name": "Bryan Chen",
-    "big": "Will Howard",
-    "pledgeclass": "Winter 2015",
+    "name": "Phillip Taylor",
+    "pledgeclass": "unknown",
     "graduated": true,
-    "inactive": true
+    "inactive": "FALSE",
+    "familystarted": "Unknown"
   },
   {
-    "name": "Michael Mellody",
-    "big": "Anthony Chadwick",
-    "pledgeclass": "Spring 2015",
-    "graduated": true
-  },
-  {
-    "name": "Nick Perrando",
-    "big": "Johnny Gray",
-    "pledgeclass": "Spring 2015",
-    "graduated": true
-  },
-  {
-    "name": "Kevin Zhang",
-    "big": "Micah Minchow",
-    "pledgeclass": "Spring 2015",
-    "graduated": true
-  },
-  {
-    "name": "Anthony Song",
-    "big": "Anthony Chadwick",
-    "pledgeclass": "Fall 2015",
-    "graduated": true
-  },
-  {
-    "name": "Owen Bradley",
-    "big": "Michael Say",
-    "pledgeclass": "Fall 2015",
-    "graduated": true
-  },
-  {
-    "name": "Abraham Lopez",
-    "big": "Andrew Alas",
-    "pledgeclass": "Fall 2015",
-    "graduated": true
-  },
-  {
-    "name": "Nick Clarke",
-    "big": "Konrad Niemiec",
-    "pledgeclass": "Fall 2015",
-    "graduated": true
-  },
-  {
-    "name": "Christian Morgan",
-    "big": "Frank Wathen",
-    "pledgeclass": "Fall 2015",
-    "graduated": true
-  },
-  {
-    "name": "Will Graves",
-    "big": "Justin Miller",
-    "pledgeclass": "Fall 2015",
-    "graduated": true
-  },
-  {
-    "name": "Karl Spires",
-    "big": "Paul Wason",
-    "pledgeclass": "Fall 2015",
+    "name": "Max Schuett",
+    "pledgeclass": "unknown",
     "graduated": true,
-    "inactive": true
+    "inactive": "FALSE",
+    "familystarted": "Unknown"
   },
   {
-    "name": "Ian Derr",
-    "big": "Joe Ryu",
-    "pledgeclass": "Fall 2015",
-    "graduated": true
+    "name": "Davis Shannon",
+    "pledgeclass": "unknown",
+    "graduated": true,
+    "inactive": true,
+    "familystarted": "Unknown"
   },
   {
-    "name": "JP Finkelstein",
-    "big": "Mitchell Bendersky",
-    "pledgeclass": "Fall 2015",
-    "graduated": true
+    "name": "Alex Shober",
+    "pledgeclass": "unknown",
+    "graduated": true,
+    "inactive": "FALSE",
+    "familystarted": "Unknown"
   },
   {
-    "name": "Erick Gutierrez",
-    "big": "Johnny Gray",
-    "pledgeclass": "Fall 2015",
-    "graduated": true
+    "name": "Shemar Slack",
+    "pledgeclass": "unknown",
+    "graduated": true,
+    "inactive": "FALSE",
+    "familystarted": "Unknown"
   },
   {
-    "name": "Taylor Munoz",
-    "big": "Blake Bergstrom",
-    "pledgeclass": "Fall 2015",
-    "graduated": true
+    "name": "Ben Speed",
+    "pledgeclass": "unknown",
+    "graduated": true,
+    "inactive": "FALSE",
+    "familystarted": "Unknown"
   },
   {
-    "name": "Andre Khosrovian",
-    "big": "Micah Minchow",
-    "pledgeclass": "Fall 2015",
-    "graduated": true
-  },
-  {
-    "name": "Connor Sullivan",
-    "big": "Nick Massoni",
-    "pledgeclass": "Fall 2015",
-    "graduated": true
-  },
-  {
-    "name": "James Marino",
-    "big": "Mitchell Bendersky",
-    "pledgeclass": "Winter 2016",
-    "graduated": true
-  },
-  {
-    "name": "Austin Berke",
-    "big": "JP Finkelstein",
-    "pledgeclass": "Winter 2016",
-    "graduated": true
-  },
-  {
-    "name": "Stephen Saltvig",
-    "big": "Victor Yu",
-    "pledgeclass": "Winter 2016",
-    "graduated": true
-  },
-  {
-    "name": "Ian Vaimberg",
-    "big": "Anthony Cheung",
-    "pledgeclass": "Winter 2016",
-    "graduated": true
-  },
-  {
-    "name": "Jerin Tomy",
-    "big": "Andrew Alas",
-    "pledgeclass": "Winter 2016",
-    "graduated": true
-  },
-  {
-    "name": "Steven Prado",
-    "big": "Kareem Barghouthi",
-    "pledgeclass": "Winter 2016",
-    "graduated": true
-  },
-  {
-    "name": "Aaron Van Doren",
-    "big": "Eric Stocker",
-    "pledgeclass": "Spring 2016",
-    "graduated": true
-  },
-  {
-    "name": "Shantam Jain",
-    "big": "Micah Minchow",
-    "pledgeclass": "Spring 2016",
-    "graduated": true
-  },
-  {
-    "name": "Ananh Onevathana",
-    "big": "Kareem Barghouthi",
-    "pledgeclass": "Spring 2016",
-    "graduated": true
-  },
-  {
-    "name": "Danny Netzer",
-    "big": "JP Finkelstein",
-    "pledgeclass": "Spring 2016",
-    "graduated": true
-  },
-  {
-    "name": "Gokberk Unal",
-    "big": "Konrad Niemiec",
-    "pledgeclass": "Spring 2016",
-    "graduated": true
-  },
-  {
-    "name": "Evan Gentry",
-    "big": "Niko Pappas",
-    "pledgeclass": "Spring 2016",
-    "graduated": true
-  },
-  {
-    "name": "Peyton Cotto",
-    "big": "Andrew Alas",
-    "pledgeclass": "Fall 2016",
-    "graduated": true
-  },
-  {
-    "name": "Bruce Kasra",
-    "big": "Tyler Suh",
-    "pledgeclass": "Fall 2016",
-    "graduated": true
-  },
-  {
-    "name": "Karim Zia",
-    "big": "Nick Clarke",
-    "pledgeclass": "Fall 2016",
-    "graduated": true
-  },
-  {
-    "name": "Clayton Ho",
-    "big": "Shantam Jain",
-    "pledgeclass": "Fall 2016"
-  },
-  {
-    "name": "Alexander Hurley",
-    "big": "Evan Schulz",
-    "pledgeclass": "Fall 2016",
-    "graduated": true
-  },
-  {
-    "name": "Jack Wu",
-    "big": "Anthony Chadwick",
-    "pledgeclass": "Fall 2016",
-    "graduated": true
-  },
-  {
-    "name": "Alex Sun",
-    "big": "Abraham Lopez",
-    "pledgeclass": "Fall 2016",
-    "inactive": true
-  },
-  {
-    "name": "Lavi Paoletti",
-    "big": "Ian Vaimberg",
-    "pledgeclass": "Fall 2016"
-  },
-  {
-    "name": "Danny Sullivan",
-    "big": "Christian Morgan",
-    "pledgeclass": "Fall 2016",
-    "inactive": true
-  },
-  {
-    "name": "Nick Edman",
-    "big": "Justin Park",
-    "pledgeclass": "Fall 2016",
-    "graduated": true
-  },
-  {
-    "name": "Craig Buchholz",
-    "big": "Eric Stocker",
-    "pledgeclass": "Fall 2016",
-    "graduated": true
-  },
-  {
-    "name": "Christian Garcia",
-    "big": "Anthony Gonzales",
-    "pledgeclass": "Fall 2016",
-    "graduated": true
-  },
-  {
-    "name": "Ari Sweedler",
-    "big": "Blake Bergstrom",
-    "pledgeclass": "Fall 2016"
-  },
-  {
-    "name": "Chris Toubia",
-    "big": "Anthony Cheung",
-    "pledgeclass": "Fall 2016",
-    "graduated": true
-  },
-  {
-    "name": "Evan Oneto",
-    "big": "Anthony Song",
-    "pledgeclass": "Fall 2016",
-    "inactive": true
-  },
-  {
-    "name": "Spencer Ytuarte",
-    "big": "Eric Stocker",
-    "pledgeclass": "Fall 2016",
-    "graduated": true
-  },
-  {
-    "name": "Nikhil Bhardwaja",
-    "big": "Anthony Song",
-    "pledgeclass": "Winter 2017"
-  },
-  {
-    "name": "Miguel Cabrales",
-    "big": "Christian Garcia",
-    "pledgeclass": "Winter 2017"
-  },
-  {
-    "name": "Grant Bennett",
-    "big": "Craig Buchholz",
-    "pledgeclass": "Winter 2017"
-  },
-  {
-    "name": "Abhinava Shriraam",
-    "big": "Karim Zia",
-    "pledgeclass": "Winter 2017",
-    "graduated": true
-  },
-  {
-    "name": "Tiger Yip",
-    "big": "Bruce Kasra",
-    "pledgeclass": "Winter 2017",
-    "inactive": true
-  },
-  {
-    "name": "Mark Shihady",
-    "big": "Andre Khosrovian",
-    "pledgeclass": "Spring 2017",
-    "graduated": true
-  },
-  {
-    "name": "Will Lee",
-    "big": "Eric Stocker",
-    "pledgeclass": "Spring 2017"
-  },
-  {
-    "name": "Tyler Packham",
-    "big": "Steven Prado",
-    "pledgeclass": "Spring 2017"
-  },
-  {
-    "name": "Devin Lawson",
-    "big": "Karl Spires",
-    "pledgeclass": "Spring 2017",
-    "graduated": true
-  },
-  {
-    "name": "Christian Stroude",
-    "big": "Ari Sweedler",
-    "pledgeclass": "Spring 2017",
-    "inactive": true
-  },
-  {
-    "name": "Jerry He",
-    "big": "Kevin Zhang",
-    "pledgeclass": "Spring 2017",
-    "graduated": true
-  },
-  {
-    "name": "Danny Lima",
-    "big": "Abraham Lopez",
-    "pledgeclass": "Spring 2017",
-    "graduated": true
-  },
-  {
-    "name": "Alex Garcia",
-    "big": "Nick Edman",
-    "pledgeclass": "Spring 2017"
-  },
-  {
-    "name": "Alex Tenorio",
-    "big": "Connor Sullivan",
+    "name": "Edward Lord",
     "pledgeclass": "Fall 2017",
-    "graduated": true
+    "graduated": true,
+    "inactive": "FALSE",
+    "familystarted": "Unknown"
   },
   {
-    "name": "Andrew Boghossian",
-    "big": "Ian Derr",
+    "name": "Kyle Xhajanka",
     "pledgeclass": "Fall 2017",
-    "graduated": true
+    "graduated": true,
+    "inactive": true,
+    "familystarted": "Xhajanka"
   },
   {
-    "name": "Blake Hirst",
-    "big": "Nick Edman",
-    "pledgeclass": "Fall 2017"
-  },
-  {
-    "name": "Charles Stoksik",
-    "big": "Clayton Ho",
+    "name": "Brian Auger",
     "pledgeclass": "Fall 2017",
-    "inactive": true
+    "graduated": true,
+    "inactive": "FALSE",
+    "familystarted": "Auger"
   },
   {
-    "name": "Elliott Santos",
-    "big": "Miguel Cabrales",
-    "pledgeclass": "Fall 2017"
-  },
-  {
-    "name": "Jose Perez",
-    "big": "Stephen Saltvig",
-    "pledgeclass": "Fall 2017"
-  },
-  {
-    "name": "Julian Adam",
-    "big": "Nikhil Bhardwaja",
-    "pledgeclass": "Fall 2017"
-  },
-  {
-    "name": "Kenny Nicholson",
-    "big": "Craig Buchholz",
+    "name": "Chris Paul",
     "pledgeclass": "Fall 2017",
-    "graduated": true
+    "graduated": true,
+    "inactive": "FALSE",
+    "familystarted": "Paul"
   },
   {
-    "name": "Brandon Achugbue",
-    "big": "Alex Sun",
+    "name": "Henry Reynolds",
     "pledgeclass": "Fall 2017",
-    "inactive": true
+    "graduated": true,
+    "inactive": "FALSE",
+    "familystarted": "Reynolds"
   },
   {
-    "name": "Brandon Kim",
-    "big": "Peyton Cotto",
+    "name": "Jaime Garcia",
     "pledgeclass": "Fall 2017",
-    "graduated": true
+    "graduated": true,
+    "inactive": "FALSE",
+    "familystarted": "Garcia"
   },
   {
-    "name": "Connor Tinsley",
-    "big": "Grant Bennett",
-    "pledgeclass": "Fall 2017"
-  },
-  {
-    "name": "Jack Feder",
-    "big": "Danny Lima",
-    "pledgeclass": "Fall 2017"
-  },
-  {
-    "name": "Justin Tonascia",
-    "big": "Nick Clarke",
-    "pledgeclass": "Fall 2017"
-  },
-  {
-    "name": "Liam Hurley",
-    "big": "Evan Gentry",
-    "pledgeclass": "Fall 2017"
-  },
-  {
-    "name": "Ram Ayyala",
-    "big": "Konrad Niemiec",
-    "pledgeclass": "Fall 2017"
-  },
-  {
-    "name": "Sebastian Haworth",
-    "big": "Ari Sweedler",
+    "name": "Jake Gillette",
     "pledgeclass": "Fall 2017",
-    "inactive": true
+    "graduated": true,
+    "inactive": "FALSE",
+    "familystarted": "Gilette"
   },
   {
-    "name": "Justin Hatch",
-    "big": "Danny Lima",
-    "pledgeclass": "Winter 2018"
+    "name": "James Duffel",
+    "pledgeclass": "Fall 2017",
+    "graduated": true,
+    "inactive": "FALSE",
+    "familystarted": "Duffel"
   },
   {
-    "name": "Bryan Ding",
-    "big": "Abhinava Shriraam",
-    "pledgeclass": "Winter 2018",
-    "inactive": true
+    "name": "Noah Booth",
+    "pledgeclass": "Fall 2017",
+    "graduated": true,
+    "inactive": "FALSE",
+    "familystarted": "Booth"
   },
   {
-    "name": "Jerald Scott",
-    "big": "Alex Garcia",
-    "pledgeclass": "Winter 2018",
-    "inactive": true
+    "name": "Stewart Davis",
+    "pledgeclass": "Fall 2017",
+    "graduated": true,
+    "inactive": "FALSE",
+    "familystarted": "Davis"
   },
   {
-    "name": "Yash Shah",
-    "big": "Ian Vaimberg",
-    "pledgeclass": "Winter 2018"
-  },
-  {
-    "name": "Jack Arnold",
-    "big": "Blake Hirst",
-    "pledgeclass": "Winter 2018"
-  },
-  {
-    "name": "Matthew Go",
-    "big": "Charles Stoksik",
-    "pledgeclass": "Winter 2018"
-  },
-  {
-    "name": "Edvin Pepic",
-    "big": "Alexander Hurley",
-    "pledgeclass": "Winter 2018",
-    "inactive": true
-  },
-  {
-    "name": "Jonathan Schultz",
-    "big": "Kenny Nicholson",
-    "pledgeclass": "Spring 2018"
-  },
-  {
-    "name": "Cameron Saneii",
-    "big": "Brandon Kim",
+    "name": "Henry Vo",
     "pledgeclass": "Spring 2018",
-    "graduated": true
+    "graduated": true,
+    "inactive": true,
+    "familystarted": "Vo"
   },
   {
-    "name": "Dante Bruno",
-    "big": "Connor Sullivan",
+    "name": "Dillon Williams",
     "pledgeclass": "Spring 2018",
-    "inactive": true
+    "graduated": true,
+    "inactive": "FALSE",
+    "familystarted": "Williams"
   },
   {
-    "name": "Jake Arakawa",
-    "big": "Danny Lima",
-    "pledgeclass": "Fall 2018"
+    "name": "Ryan Ware",
+    "pledgeclass": "Spring 2018",
+    "graduated": true,
+    "inactive": "FALSE",
+    "familystarted": "Ware"
   },
   {
-    "name": "Armin Khanpour",
-    "big": "Clayton Ho",
+    "name": "Bo Booker",
+    "pledgeclass": "Spring 2018",
+    "graduated": true,
+    "inactive": "FALSE",
+    "familystarted": "Booker"
+  },
+  {
+    "name": "Drew Towry",
+    "pledgeclass": "Spring 2018",
+    "graduated": true,
+    "inactive": "FALSE",
+    "familystarted": "Towry"
+  },
+  {
+    "name": "Andrew Marley",
+    "big": "Jake Gillette",
+    "pledgeclass": "Spring 2018",
+    "graduated": true,
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Brandon Vanlandingham",
+    "big": "Kyle Xhajanka",
+    "pledgeclass": "Spring 2018",
+    "graduated": true,
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Josh Edwards",
+    "big": "Stewart Davis",
+    "pledgeclass": "Spring 2018",
+    "graduated": true,
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Andrew Dicke",
     "pledgeclass": "Fall 2018",
-    "graduated": true
+    "graduated": true,
+    "inactive": "FALSE",
+    "familystarted": "Unknown"
   },
   {
-    "name": "Zach Wrubel",
-    "big": "Elliott Santos",
-    "pledgeclass": "Fall 2018"
-  },
-  {
-    "name": "Daniel Nouri",
-    "big": "Connor Tinsley",
-    "pledgeclass": "Fall 2018"
-  },
-  {
-    "name": "Bryce Fenenbock",
-    "big": "Julian Adam",
-    "pledgeclass": "Fall 2018"
-  },
-  {
-    "name": "David Crofton",
-    "big": "Jack Arnold",
-    "pledgeclass": "Fall 2018"
-  },
-  {
-    "name": "Justin Guseman",
-    "big": "Blake Hirst",
-    "pledgeclass": "Fall 2018"
-  },
-  {
-    "name": "Alan Zisman",
-    "big": "Karim Zia",
+    "name": "JT Perrigin",
+    "big": "Ryan Ware",
     "pledgeclass": "Fall 2018",
+    "graduated": true,
     "inactive": true
   },
   {
-    "name": "Jack Gobel",
-    "big": "Chris Toubia",
-    "pledgeclass": "Fall 2018"
-  },
-  {
-    "name": "Lucas Everett",
-    "big": "Christian Garcia",
-    "pledgeclass": "Fall 2018"
-  },
-  {
-    "name": "Julian Uy",
-    "big": "Taylor Munoz",
-    "pledgeclass": "Fall 2018"
-  },
-  {
-    "name": "Gordon Kuang",
-    "big": "Miguel Cabrales",
-    "pledgeclass": "Fall 2018"
-  },
-  {
-    "name": "Kevin Peng",
-    "big": "Will Lee",
-    "pledgeclass": "Fall 2018"
-  },
-  {
-    "name": "Brennan Steggink",
-    "big": "Devin Lawson",
-    "pledgeclass": "Fall 2018"
-  },
-  {
-    "name": "Collin Shore",
-    "big": "Justin Hatch",
-    "pledgeclass": "Fall 2018"
-  },
-  {
-    "name": "John Webster",
-    "big": "Jack Feder",
-    "pledgeclass": "Fall 2018"
-  },
-  {
-    "name": "Michael Pacult",
-    "big": "Stephen Saltvig",
+    "name": "Alex Taylor",
+    "big": "Noah Booth",
     "pledgeclass": "Fall 2018",
+    "graduated": true,
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Austin Wesley",
+    "big": "Brian Auger",
+    "pledgeclass": "Fall 2018",
+    "graduated": true,
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Drew Grant",
+    "big": "James Duffel",
+    "pledgeclass": "Fall 2018",
+    "graduated": true,
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Ethan Edwards",
+    "big": "Andrew Marley",
+    "pledgeclass": "Fall 2018",
+    "graduated": true,
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Mickey Mangan",
+    "pledgeclass": "Fall 2018",
+    "graduated": true,
+    "inactive": "FALSE",
+    "familystarted": "Unknown"
+  },
+  {
+    "name": "Nathan Ballard",
+    "pledgeclass": "Fall 2018",
+    "graduated": true,
+    "inactive": "FALSE",
+    "familystarted": "Unknown"
+  },
+  {
+    "name": "Sam Boggs",
+    "big": "Brandon Vanlandingham",
+    "pledgeclass": "Fall 2018",
+    "graduated": true,
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Sean Nolen",
+    "big": "Josh Edwards",
+    "pledgeclass": "Fall 2018",
+    "graduated": true,
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Tyler Carrigan",
+    "big": "Bo Booker",
+    "pledgeclass": "Fall 2018",
+    "graduated": true,
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Matt Sobczak",
+    "pledgeclass": "Fall 2019",
+    "graduated": true,
+    "inactive": "FALSE",
+    "familystarted": "Unknown"
+  },
+  {
+    "name": "Jason Schwartz",
+    "pledgeclass": "Fall 2019",
+    "graduated": true,
+    "inactive": true,
+    "familystarted": "Unknown"
+  },
+  {
+    "name": "Ivy Wells",
+    "pledgeclass": "Fall 2019",
+    "graduated": true,
+    "inactive": "FALSE",
+    "familystarted": "Unknown"
+  },
+  {
+    "name": "Bekher Salem",
+    "big": "JT Perrigin",
+    "pledgeclass": "Fall 2019",
+    "graduated": true,
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Cam Nolin",
+    "big": "Henry Reynolds",
+    "pledgeclass": "Fall 2019",
+    "graduated": true,
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Cason Brown",
+    "big": "Sam Boggs",
+    "pledgeclass": "Fall 2019",
+    "graduated": true,
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Cooper Medved",
+    "big": "Drew Grant",
+    "pledgeclass": "Fall 2019",
+    "graduated": true,
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Eric Toups",
+    "big": "Jaime Garcia",
+    "pledgeclass": "Fall 2019",
+    "graduated": true,
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Garrett Monroe",
+    "big": "Andrew Marley",
+    "pledgeclass": "Fall 2019",
+    "graduated": true,
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Jack Adamski",
+    "big": "Tyler Carrigan",
+    "pledgeclass": "Fall 2019",
+    "graduated": true,
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Jake Williams",
+    "big": "Sean Nolen",
+    "pledgeclass": "Fall 2019",
+    "graduated": true,
+    "inactive": "FALSE"
+  },
+  {
+    "name": "JJ Olguin",
+    "big": "Jaime Garcia",
+    "pledgeclass": "Fall 2019",
+    "graduated": true,
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Kam Loupe",
+    "big": "Jaime Garcia",
+    "pledgeclass": "Fall 2019",
+    "graduated": true,
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Logan Johnson",
+    "big": "Sean Nolen",
+    "pledgeclass": "Fall 2019",
+    "graduated": true,
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Mason Turnipseed",
+    "big": "Chris Paul",
+    "pledgeclass": "Fall 2019",
+    "graduated": true,
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Nick Stingley",
+    "big": "Austin Wesley",
+    "pledgeclass": "Fall 2019",
+    "graduated": true,
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Nikken Malbeouf",
+    "big": "Henry Vo",
+    "pledgeclass": "Fall 2019",
+    "graduated": true,
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Sam Stewart",
+    "big": "Dillon Williams",
+    "pledgeclass": "Fall 2019",
+    "graduated": true,
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Seth Sloan",
+    "big": "Nathan Ballard",
+    "pledgeclass": "Fall 2019",
+    "graduated": true,
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Max Anderson",
+    "pledgeclass": "Fall 2020",
+    "graduated": true,
+    "inactive": "FALSE",
+    "familystarted": "Unknown"
+  },
+  {
+    "name": "Walker Barnes",
+    "pledgeclass": "Fall 2020",
+    "graduated": true,
+    "inactive": "FALSE",
+    "familystarted": "Unknown"
+  },
+  {
+    "name": "Nick Carl",
+    "pledgeclass": "Fall 2020",
+    "graduated": true,
+    "inactive": true,
+    "familystarted": "Unknown"
+  },
+  {
+    "name": "Austin Gray",
+    "pledgeclass": "Fall 2020",
+    "graduated": true,
+    "inactive": "FALSE",
+    "familystarted": "Unknown"
+  },
+  {
+    "name": "Josh Jennings",
+    "big": "Jake Williams",
+    "pledgeclass": "Spring 2020",
+    "graduated": true,
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Blake Baggott",
+    "big": "Alex Taylor",
+    "pledgeclass": "Fall 2020",
+    "graduated": true,
     "inactive": true
   },
   {
-    "name": "Nate Mailhot",
-    "big": "Matthew Go",
-    "pledgeclass": "Fall 2018"
-  },
-  {
-    "name": "Jimmy Varos",
-    "big": "Cameron Saneii",
-    "pledgeclass": "Winter 2019"
-  },
-  {
-    "name": "Alex Tam",
-    "big": "Kenny Nicholson",
-    "pledgeclass": "Winter 2019"
-  },
-  {
-    "name": "Jacob Von Winckelmann",
-    "big": "Jonathan Schultz",
-    "pledgeclass": "Winter 2019"
-  },
-  {
-    "name": "Brandon Bettinger",
-    "big": "Nikhil Bhardwaja",
-    "pledgeclass": "Winter 2019"
-  },
-  {
-    "name": "Jason Maikis",
-    "big": "Connor Tinsley",
-    "pledgeclass": "Winter 2019",
+    "name": "Caleb Meadows",
+    "big": "Ethan Edwards",
+    "pledgeclass": "Fall 2020",
+    "graduated": true,
     "inactive": true
   },
   {
-    "name": "Sahith Obbu",
-    "big": "Liam Hurley",
-    "pledgeclass": "Winter 2019"
+    "name": "Doc Worley",
+    "big": "Logan Johnson",
+    "pledgeclass": "Fall 2020",
+    "graduated": true,
+    "inactive": true
   },
   {
-    "name": "Zach Moss",
-    "big": "Alex Garcia",
-    "pledgeclass": "Spring 2019"
+    "name": "Jude Letonoff",
+    "big": "Nick Stingley",
+    "pledgeclass": "Fall 2020",
+    "graduated": true,
+    "inactive": true
   },
   {
-    "name": "Rutik Shinglot",
-    "big": "Alex Garcia",
-    "pledgeclass": "Spring 2019"
+    "name": "Nick Aguilar",
+    "big": "Brandon Vanlandingham",
+    "pledgeclass": "Fall 2020",
+    "graduated": true,
+    "inactive": true
   },
   {
-    "name": "Vishal Narayan",
-    "big": "Jack Feder",
-    "pledgeclass": "Spring 2019"
+    "name": "Trevor Glisson",
+    "big": "Ethan Edwards",
+    "pledgeclass": "Fall 2020",
+    "graduated": true,
+    "inactive": true
   },
   {
-    "name": "Ravi Varma",
-    "big": "Charles Stoksik",
-    "pledgeclass": "Spring 2019"
+    "name": "Arec Wesley",
+    "big": "Nick Stingley",
+    "pledgeclass": "Fall 2020",
+    "graduated": true,
+    "inactive": "FALSE"
   },
   {
-    "name": "Alec Marcellin",
-    "big": "Rutik Shinglot",
-    "pledgeclass": "Fall 2019"
+    "name": "Bailey Harrison",
+    "big": "Cam Nolin",
+    "pledgeclass": "Fall 2020",
+    "graduated": true,
+    "inactive": "FALSE"
   },
   {
-    "name": "Andrew Chrissan",
-    "big": "Miguel Cabrales",
-    "pledgeclass": "Fall 2019"
+    "name": "Brady Forsythe",
+    "big": "JJ Olguin",
+    "pledgeclass": "Fall 2020",
+    "graduated": true,
+    "inactive": "FALSE"
   },
   {
-    "name": "Barrett Mcrae",
-    "big": "Jack Arnold",
-    "pledgeclass": "Fall 2019"
+    "name": "Bryson Steinke",
+    "big": "Jack Adamski",
+    "pledgeclass": "Fall 2020",
+    "graduated": true,
+    "inactive": "FALSE"
   },
   {
-    "name": "CJ Ezratty",
-    "big": "Lucas Everett",
-    "pledgeclass": "Fall 2019"
+    "name": "Carter Bentley",
+    "big": "Garrett Monroe",
+    "pledgeclass": "Fall 2020",
+    "graduated": true,
+    "inactive": "FALSE"
   },
   {
-    "name": "Edgard Aleman",
-    "big": "Kevin Peng",
-    "pledgeclass": "Fall 2019"
+    "name": "Chris Walton",
+    "big": "Nathan Ballard",
+    "pledgeclass": "Fall 2020",
+    "graduated": true,
+    "inactive": "FALSE"
   },
   {
-    "name": "Ishaan Shah",
-    "big": "Ram Ayyala",
-    "pledgeclass": "Fall 2019"
+    "name": "Dalton Lovitt",
+    "big": "Jake Williams",
+    "pledgeclass": "Fall 2020",
+    "graduated": true,
+    "inactive": "FALSE"
   },
   {
-    "name": "Josh Perez",
-    "big": "Jacob Von Winckelmann",
-    "pledgeclass": "Fall 2019"
+    "name": "Garrett Knotts",
+    "big": "Nikken Malbeouf",
+    "pledgeclass": "Fall 2020",
+    "graduated": true,
+    "inactive": "FALSE"
   },
   {
-    "name": "Jun Ho Park",
-    "big": "Brandon Bettinger",
-    "pledgeclass": "Fall 2019"
+    "name": "Gavin Williamson",
+    "big": "Mickey Mangan",
+    "pledgeclass": "Fall 2020",
+    "graduated": true,
+    "inactive": "FALSE"
   },
   {
-    "name": "Kade Adams",
-    "big": "Ari Sweedler",
-    "pledgeclass": "Fall 2019"
+    "name": "Jack Desantis",
+    "big": "Alex Taylor",
+    "pledgeclass": "Fall 2020",
+    "graduated": true,
+    "inactive": "FALSE"
   },
   {
-    "name": "Louie Leavitt",
-    "big": "Nate Mailhot",
-    "pledgeclass": "Fall 2019"
+    "name": "Jackson Smith",
+    "big": "Mason Turnipseed",
+    "pledgeclass": "Fall 2020",
+    "graduated": true,
+    "inactive": "FALSE"
   },
   {
-    "name": "Luke Walker",
-    "big": "Alex Tam",
-    "pledgeclass": "Fall 2019"
+    "name": "Jay Canale",
+    "big": "Drew Towry",
+    "pledgeclass": "Fall 2020",
+    "graduated": true,
+    "inactive": "FALSE"
   },
   {
-    "name": "Max McNeal",
-    "big": "Elliott Santos",
-    "pledgeclass": "Fall 2019"
+    "name": "Judson Moore",
+    "big": "Seth Sloan",
+    "pledgeclass": "Fall 2020",
+    "graduated": true,
+    "inactive": "FALSE"
   },
   {
-    "name": "Michael Singer",
-    "big": "Zach Wrubel",
-    "pledgeclass": "Fall 2019"
+    "name": "Leyton Riley",
+    "big": "Mason Turnipseed",
+    "pledgeclass": "Fall 2020",
+    "graduated": true,
+    "inactive": "FALSE"
   },
   {
-    "name": "Max Sicherman",
-    "big": "Julian Uy",
-    "pledgeclass": "Fall 2019"
+    "name": "Sean McEnery",
+    "big": "Garrett Monroe",
+    "pledgeclass": "Fall 2020",
+    "graduated": true,
+    "inactive": "FALSE"
   },
   {
-    "name": "Shail Avasthi",
-    "big": "Justin Guseman",
-    "pledgeclass": "Fall 2019"
+    "name": "Seth Todd",
+    "big": "Josh Jennings",
+    "pledgeclass": "Fall 2020",
+    "graduated": true,
+    "inactive": "FALSE"
   },
   {
-    "name": "Will Tucker",
-    "big": "Blake Hirst",
-    "pledgeclass": "Fall 2019"
+    "name": "TJ Smith",
+    "big": "Kam Loupe",
+    "pledgeclass": "Fall 2020",
+    "graduated": true,
+    "inactive": "FALSE"
   },
   {
-    "name": "Jordany Zamor",
-    "big": "David Crofton",
-    "pledgeclass": "Winter 2020"
+    "name": "Daniel Moore",
+    "big": "Bekher Salem",
+    "pledgeclass": "Fall 2020",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Cameron Dorais",
-    "big": "Jack Arnold",
-    "pledgeclass": "Winter 2020"
+    "name": "Colin Davis '24",
+    "pledgeclass": "Spring 2021",
+    "graduated": true,
+    "inactive": "FALSE",
+    "familystarted": "Unknown"
   },
   {
-    "name": "Adrian Alavez",
-    "big": "Alex Tam",
-    "pledgeclass": "Winter 2020"
+    "name": "Brooks Murphree",
+    "big": "Doc Worley",
+    "pledgeclass": "Spring 2021",
+    "graduated": true,
+    "inactive": "FALSE"
   },
   {
-    "name": "Agam Bedi",
-    "big": "Jun Ho Park",
-    "pledgeclass": "Winter 2020"
+    "name": "Connor Douglas",
+    "big": "Caleb Meadows",
+    "pledgeclass": "Spring 2021",
+    "graduated": true,
+    "inactive": "FALSE"
   },
   {
-    "name": "Alex Mora",
-    "big": "Sahith Obbu",
-    "pledgeclass": "Winter 2020"
+    "name": "Grayson Frieze",
+    "big": "Carter Bentley",
+    "pledgeclass": "Spring 2021",
+    "graduated": true,
+    "inactive": "FALSE"
   },
   {
-    "name": "Dylan Melnick",
-    "big": "Blake Hirst",
-    "pledgeclass": "Winter 2020"
+    "name": "Jesse Watkins",
+    "big": "Dillon Williams",
+    "pledgeclass": "Spring 2021",
+    "graduated": true,
+    "inactive": "FALSE"
   },
   {
-    "name": "John Lee",
-    "big": "Gordon Kuang",
-    "pledgeclass": "Winter 2020"
+    "name": "Presley Witt",
+    "big": "Sean McEnery",
+    "pledgeclass": "Spring 2021",
+    "graduated": true,
+    "inactive": "FALSE"
   },
   {
-    "name": "Austin Pham",
-    "big": "Collin Shore",
-    "pledgeclass": "Winter 2020"
+    "name": "Skylar Ross",
+    "big": "Cooper Medved",
+    "pledgeclass": "Spring 2021",
+    "graduated": true,
+    "inactive": "FALSE"
   },
   {
-    "name": "Raj Padmanaban",
-    "big": "Ram Ayyala",
-    "pledgeclass": "Winter 2020"
+    "name": "Baylin Navarro",
+    "big": "Seth Todd",
+    "pledgeclass": "Fall 2021",
+    "graduated": "FALSE",
+    "inactive": true
   },
   {
-    "name": "Max Dallas",
-    "big": "Max Sicherman",
-    "pledgeclass": "Winter 2020"
+    "name": "Carson Green",
+    "big": "TJ Smith",
+    "pledgeclass": "Fall 2021",
+    "graduated": true,
+    "inactive": true
   },
   {
-    "name": "Sam Kaseff",
-    "big": "Julian Uy",
-    "pledgeclass": "Winter 2020"
+    "name": "Eric Kingston",
+    "big": "Cason Brown",
+    "pledgeclass": "Fall 2021",
+    "graduated": true,
+    "inactive": true
   },
   {
-    "name": "Julian Hamama",
-    "big": "Ari Sweedler",
-    "pledgeclass": "Winter 2020"
+    "name": "Layne Baldwin",
+    "big": "Daniel Moore",
+    "pledgeclass": "Fall 2021",
+    "graduated": "FALSE",
+    "inactive": true
   },
   {
-    "name": "Bennett North",
-    "big": "Bryce Fenenbock",
-    "pledgeclass": "Winter 2020"
+    "name": "Mitchell Badurak",
+    "big": "Jude Letonoff",
+    "pledgeclass": "Fall 2021",
+    "graduated": true,
+    "inactive": true
   },
   {
-    "name": "Alvin Hadley",
-    "big": "Max Dallas",
-    "pledgeclass": "Fall 2020"
+    "name": "Quinn Crothers",
+    "big": "Connor Douglas",
+    "pledgeclass": "Fall 2021",
+    "graduated": true,
+    "inactive": true
   },
   {
-    "name": "Josh Eidam",
-    "big": "Agam Bedi",
-    "pledgeclass": "Fall 2020"
+    "name": "Sam Ball",
+    "big": "Presley Witt",
+    "pledgeclass": "Fall 2021",
+    "graduated": "FALSE",
+    "inactive": true
   },
   {
-    "name": "Chris Bieberich",
-    "big": "Max Sicherman",
-    "pledgeclass": "Fall 2020"
+    "name": "Ty Usey",
+    "big": "Bryson Steinke",
+    "pledgeclass": "Fall 2021",
+    "graduated": "FALSE",
+    "inactive": true
   },
   {
-    "name": "Andrew Luff",
-    "big": "Jordany Zamor",
-    "pledgeclass": "Fall 2020"
+    "name": "Will Rasmussen",
+    "big": "Seth Todd",
+    "pledgeclass": "Fall 2021",
+    "graduated": "FALSE",
+    "inactive": true
   },
   {
-    "name": "Mike Zhan",
-    "big": "Ravi Varma",
-    "pledgeclass": "Fall 2020"
+    "name": "Andrew Beatty",
+    "big": "Grayson Frieze",
+    "pledgeclass": "Fall 2021",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Jackson Weldon",
-    "big": "Cameron Dorais",
-    "pledgeclass": "Winter 2021"
+    "name": "Austin Hoff",
+    "big": "Leyton Riley",
+    "pledgeclass": "Fall 2021",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Rolando Bonilla",
-    "big": "Alec Marcellin",
-    "pledgeclass": "Winter 2021"
+    "name": "Ben Cuny",
+    "big": "Dalton Lovitt",
+    "pledgeclass": "Fall 2021",
+    "graduated": true,
+    "inactive": "FALSE"
   },
   {
-    "name": "Kyle Cota",
-    "big": "Jordany Zamor",
-    "pledgeclass": "Winter 2021"
+    "name": "Ben Dolihite",
+    "big": "Kam Loupe",
+    "pledgeclass": "Fall 2021",
+    "graduated": true,
+    "inactive": "FALSE"
   },
   {
-    "name": "Josh Ico",
-    "big": "Kade Adams",
-    "pledgeclass": "Winter 2021"
+    "name": "Brooks Surber",
+    "big": "Brooks Murphree",
+    "pledgeclass": "Fall 2021",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Kanoa King",
-    "big": "Zach Wrubel",
-    "pledgeclass": "Winter 2021"
+    "name": "Cam Brickler",
+    "big": "Gavin Williamson",
+    "pledgeclass": "Fall 2021",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Ryan Alomair",
-    "big": "Vishal Narayan",
-    "pledgeclass": "Winter 2021"
+    "name": "Cam Verser",
+    "big": "Nick Aguilar",
+    "pledgeclass": "Fall 2021",
+    "graduated": true,
+    "inactive": "FALSE"
   },
   {
-    "name": "Rishi Ray",
-    "big": "Ravi Varma",
-    "pledgeclass": "Winter 2021"
+    "name": "Campbell Carter",
+    "big": "Jackson Smith",
+    "pledgeclass": "Fall 2021",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Zach Reddy",
-    "big": "CJ Ezratty",
-    "pledgeclass": "Winter 2021"
+    "name": "David Kiesel",
+    "big": "Jack Desantis",
+    "pledgeclass": "Fall 2021",
+    "graduated": true,
+    "inactive": "FALSE"
   },
   {
-    "name": "Charles Whitcomb",
-    "big": "Dylan Melnick",
-    "pledgeclass": "Winter 2021"
+    "name": "Dawson Mack",
+    "big": "Bailey Harrison",
+    "pledgeclass": "Fall 2021",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "David McFall",
-    "big": "Alex Tam",
-    "pledgeclass": "Spring 2021"
+    "name": "Dayne Woodin",
+    "big": "Trever Glisson",
+    "pledgeclass": "Fall 2021",
+    "graduated": true,
+    "inactive": "FALSE"
   },
   {
-    "name": "Griffin Gowdy",
-    "big": "Alec Marcellin",
-    "pledgeclass": "Spring 2021"
+    "name": "Drew Seelbach",
+    "big": "Judson Moore",
+    "pledgeclass": "Fall 2021",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Ian Geertsen",
-    "big": "Jordany Zamor",
-    "pledgeclass": "Spring 2021"
+    "name": "Dylan Lynch",
+    "big": "Arec Wesley",
+    "pledgeclass": "Fall 2021",
+    "graduated": true,
+    "inactive": "FALSE"
   },
   {
-    "name": "Joshua Abrams",
-    "big": "Charles Whitcomb",
-    "pledgeclass": "Spring 2021"
+    "name": "Eli Calvasina",
+    "big": "Presley Witt",
+    "pledgeclass": "Fall 2021",
+    "graduated": true,
+    "inactive": "FALSE"
   },
   {
-    "name": "Troy Hillman",
-    "big": "Cameron Dorais",
-    "pledgeclass": "Spring 2021"
+    "name": "Hayden Cherry",
+    "big": "Sam Stewart",
+    "pledgeclass": "Fall 2021",
+    "graduated": true,
+    "inactive": "FALSE"
   },
   {
-    "name": "Jonathan Conrad",
-    "big": "Adrian Alavez",
-    "pledgeclass": "Fall 2021"
+    "name": "Jacob Lindsey",
+    "big": "Garrett Knotts",
+    "pledgeclass": "Fall 2021",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Teddy Caligiuri",
-    "big": "Luke Walker",
-    "pledgeclass": "Fall 2021"
+    "name": "John McKee",
+    "big": "Bryson Steinke",
+    "pledgeclass": "Fall 2021",
+    "graduated": true,
+    "inactive": "FALSE"
   },
   {
-    "name": "Cole McQuinn",
-    "big": "Max Dallas",
-    "pledgeclass": "Fall 2021"
+    "name": "Josh Fawley",
+    "big": "Jack Desantis",
+    "pledgeclass": "Fall 2021",
+    "graduated": true,
+    "inactive": "FALSE"
   },
   {
-    "name": "Ryan McWhorter",
-    "big": "Josh Eidam",
-    "pledgeclass": "Fall 2021"
+    "name": "Josh Lane",
+    "big": "Chris Walton",
+    "pledgeclass": "Fall 2021",
+    "graduated": true,
+    "inactive": "FALSE"
   },
   {
-    "name": "Judah Chambers",
-    "big": "Andrew Luff",
-    "pledgeclass": "Fall 2021"
+    "name": "Justin Traywick",
+    "big": "Nick Aguilar",
+    "pledgeclass": "Fall 2021",
+    "graduated": true,
+    "inactive": "FALSE"
   },
   {
-    "name": "Ayden Mackenzie",
-    "big": "Andrew Luff",
-    "pledgeclass": "Fall 2021"
+    "name": "Kobe Childress",
+    "big": "Judson Moore",
+    "pledgeclass": "Fall 2021",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Kyle Almon",
-    "big": "Bryce Fenenbock",
-    "pledgeclass": "Fall 2021"
+    "name": "Kyle Cauthen",
+    "big": "Chris Walton",
+    "pledgeclass": "Fall 2021",
+    "graduated": true,
+    "inactive": "FALSE"
   },
   {
-    "name": "Jared Patel",
-    "big": "Max Sicherman",
-    "pledgeclass": "Fall 2021"
+    "name": "Lincoln Jones",
+    "big": "Skylar Ross",
+    "pledgeclass": "Fall 2021",
+    "graduated": true,
+    "inactive": "FALSE"
   },
   {
-    "name": "Micah Resnick Crook",
-    "big": "Bennett North",
-    "pledgeclass": "Fall 2021"
+    "name": "Patrick Little",
+    "big": "Drew Grant",
+    "pledgeclass": "Fall 2021",
+    "graduated": true,
+    "inactive": "FALSE"
   },
   {
-    "name": "Dawson Taylor ",
-    "big": "Zach Reddy",
-    "pledgeclass": "Fall 2021"
+    "name": "Peyton Horn",
+    "big": "Blake Baggott",
+    "pledgeclass": "Fall 2021",
+    "graduated": true,
+    "inactive": "FALSE"
   },
   {
-    "name": "Parth Doshi",
-    "big": "Alex Tam",
-    "pledgeclass": "Fall 2021"
+    "name": "Thomas Hunt",
+    "big": "Arec Wesley",
+    "pledgeclass": "Fall 2021",
+    "graduated": true,
+    "inactive": "FALSE"
   },
   {
-    "name": "Tucker Waters",
-    "big": "Charles Whitcomb",
-    "pledgeclass": "Fall 2021"
+    "name": "Todd Eubanks",
+    "big": "Eric Toups",
+    "pledgeclass": "Fall 2021",
+    "graduated": true,
+    "inactive": "FALSE"
   },
   {
-    "name": "Aidan Cone",
-    "big": "Kanoa King",
-    "pledgeclass": "Fall 2021"
+    "name": "Trace Barnett",
+    "big": "Leyton Riley",
+    "pledgeclass": "Fall 2021",
+    "graduated": true,
+    "inactive": "FALSE"
   },
   {
-    "name": "Ian Fu",
-    "big": "Kanoa King",
-    "pledgeclass": "Fall 2021"
+    "name": "Walker King",
+    "big": "Bailey Harrison",
+    "pledgeclass": "Fall 2021",
+    "graduated": true,
+    "inactive": "FALSE"
   },
   {
-    "name": "Eric Fritz",
-    "big": "Louie Leavitt",
-    "pledgeclass": "Fall 2021"
+    "name": "Wesley Janes",
+    "big": "Cam Nolin",
+    "pledgeclass": "Fall 2021",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Irfan Lin",
-    "big": "Jordany Zamor",
-    "pledgeclass": "Fall 2021"
+    "name": "Will Woods",
+    "big": "Jesse Watkins",
+    "pledgeclass": "Fall 2021",
+    "graduated": true,
+    "inactive": "FALSE"
   },
   {
-    "name": "Johnny Bhaskar",
-    "big": "Jordany Zamor",
-    "pledgeclass": "Fall 2021"
+    "name": "Adam Sterhan",
+    "big": "Dayne Woodin",
+    "pledgeclass": "Fall 2022",
+    "graduated": "FALSE",
+    "inactive": true
   },
   {
-    "name": "Brian Taylor",
-    "big": "Shail Avasthi",
-    "pledgeclass": "Fall 2021"
+    "name": "Grant Houston",
+    "big": "Bryson Steinke",
+    "pledgeclass": "Fall 2022",
+    "graduated": "FALSE",
+    "inactive": true
   },
   {
-    "name": "Brendan McMahon",
-    "big": "Max McNeal",
-    "pledgeclass": "Fall 2021"
+    "name": "Jayshard Bradfield",
+    "big": "Brandon Vanlandingham",
+    "pledgeclass": "Fall 2022",
+    "graduated": true,
+    "inactive": true
   },
   {
-    "name": "Kody Lamb",
-    "big": "Ravi Varma",
-    "pledgeclass": "Fall 2021"
+    "name": "Luke Murphy",
+    "big": "Drew Seelbach",
+    "pledgeclass": "Fall 2022",
+    "graduated": "FALSE",
+    "inactive": true
   },
   {
-    "name": "Ben Kase",
-    "big": "Andrew Chrissan",
-    "pledgeclass": "Fall 2021"
+    "name": "Matthew Vanvleck",
+    "big": "Peyton Horn",
+    "pledgeclass": "Fall 2022",
+    "graduated": "FALSE",
+    "inactive": true
   },
   {
-    "name": "Peter DePaul",
-    "big": "Andrew Chrissan",
-    "pledgeclass": "Fall 2021"
+    "name": "Niko Ashley",
+    "big": "Connor Douglas",
+    "pledgeclass": "Fall 2022",
+    "graduated": "FALSE",
+    "inactive": true
   },
   {
-    "name": "Ishaan Garg",
-    "big": "Vishal Narayan",
-    "pledgeclass": "Fall 2021"
+    "name": "AJ Page",
+    "big": "Eli Calvasina",
+    "pledgeclass": "Fall 2022",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Ken Matsunaga",
-    "big": "Rutik Shinglot",
-    "pledgeclass": "Fall 2021"
+    "name": "Andrew King",
+    "big": "Todd Eubanks",
+    "pledgeclass": "Fall 2022",
+    "graduated": "FALSE",
+    "inactive": true
   },
   {
-    "name": "Shail Mirpuri",
-    "big": "CJ Ezratty",
-    "pledgeclass": "Fall 2021"
+    "name": "Anthony Mattina",
+    "big": "Justin Traywick",
+    "pledgeclass": "Fall 2022",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Spencer Stice",
-    "big": "Sam Kaseff",
-    "pledgeclass": "Fall 2021"
+    "name": "Blake Williams",
+    "big": "Cam Brickler",
+    "pledgeclass": "Fall 2022",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Jacob Nanquil",
-    "big": "Josh Perez",
-    "pledgeclass": "Fall 2021"
+    "name": "Camden Smith",
+    "big": "Campbell Carter",
+    "pledgeclass": "Fall 2022",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Gio Villalobos",
-    "big": "Josh Perez",
-    "pledgeclass": "Fall 2021"
+    "name": "Cam Moore",
+    "big": "Wesley Janes",
+    "pledgeclass": "Fall 2022",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Marcus Orwin",
-    "big": "Chris Bieberich",
-    "pledgeclass": "Fall 2021"
+    "name": "Chris Bolton",
+    "big": "Todd Eubanks",
+    "pledgeclass": "Fall 2022",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Evan Schneider",
-    "big": "Chris Bieberich",
-    "pledgeclass": "Fall 2021"
+    "name": "David Randall",
+    "big": "Brooks Surber",
+    "pledgeclass": "Fall 2022",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "John Reinker",
-    "big": "Shail Avasthi",
-    "pledgeclass": "Fall 2021"
+    "name": "Drew Sullivan",
+    "big": "Thomas Hunt",
+    "pledgeclass": "Fall 2022",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Caden Tien",
-    "big": "Michael Singer",
-    "pledgeclass": "Fall 2021"
+    "name": "Easton Wamble",
+    "big": "Lincoln Jones",
+    "pledgeclass": "Fall 2022",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Oliver Whalen",
-    "big": "Rolando Bonilla",
-    "pledgeclass": "Fall 2021"
+    "name": "Eli Goulet",
+    "big": "Patrick Little",
+    "pledgeclass": "Fall 2022",
+    "graduated": true,
+    "inactive": "FALSE"
   },
   {
-    "name": "Antwan Adams",
-    "big": "Rolando Bonilla",
-    "pledgeclass": "Fall 2021"
+    "name": "Freddy Kinney",
+    "big": "David Kiesel",
+    "pledgeclass": "Fall 2022",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Colin McMahon",
-    "big": "Ryan Alomair",
-    "pledgeclass": "Fall 2021"
+    "name": "Garrett Rothwell",
+    "big": "Trace Barnett",
+    "pledgeclass": "Fall 2022",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Matthew Marsh",
-    "big": "Ryan Alomair",
-    "pledgeclass": "Fall 2021"
+    "name": "Hayden Anderson",
+    "big": "Skylar Ross",
+    "pledgeclass": "Fall 2022",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Kent Bourgoing",
-    "big": "Adrian Alavez",
-    "pledgeclass": "Winter 2022"
+    "name": "Hayden Smith",
+    "big": "Layne Baldwin",
+    "pledgeclass": "Fall 2022",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Quinn Hilger",
-    "big": "Rolando Bonilla",
-    "pledgeclass": "Winter 2022"
+    "name": "Hunter Pope",
+    "big": "Peyton Horn",
+    "pledgeclass": "Fall 2022",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Sam Peterson",
-    "big": "Kyle Almon",
-    "pledgeclass": "Winter 2022"
+    "name": "Isaiah Morgan",
+    "big": "Dylan Lynch",
+    "pledgeclass": "Fall 2022",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Carter Wink",
-    "big": "Jackson Weldon",
-    "pledgeclass": "Winter 2022"
+    "name": "Josh Burrows",
+    "big": "Dayne Woodin",
+    "pledgeclass": "Fall 2022",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Kaelan Van Cleef",
-    "big": "Judah Chambers",
-    "pledgeclass": "Winter 2022"
+    "name": "Kevin Osorio",
+    "big": "Brooks Surber",
+    "pledgeclass": "Fall 2022",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Isaac Chettiath",
-    "big": "Andrew Chrissan",
-    "pledgeclass": "Winter 2022"
+    "name": "Liam Mathis",
+    "big": "Kyle Cauthen",
+    "pledgeclass": "Fall 2022",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Ben Grieder",
-    "big": "Andrew Luff",
-    "pledgeclass": "Winter 2022"
+    "name": "Logan Luzar",
+    "big": "Hayden Cherry",
+    "pledgeclass": "Fall 2022",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Mason Hoyt",
-    "big": "Max McNeal",
-    "pledgeclass": "Winter 2022"
+    "name": "Mitch Russell",
+    "big": "Ben Dolihite",
+    "pledgeclass": "Fall 2022",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Harry Persaud",
-    "big": "Shail Mirpuri",
-    "pledgeclass": "Winter 2022"
+    "name": "Reece Hodges",
+    "big": "Sam Ball",
+    "pledgeclass": "Fall 2022",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Akshyae Singh",
-    "big": "Matthew Marsh",
-    "pledgeclass": "Fall 2022"
+    "name": "Reed Murphree",
+    "big": "John McKee",
+    "pledgeclass": "Fall 2022",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Baltej Randhawa",
-    "big": "Irfan Lin",
-    "pledgeclass": "Fall 2022"
+    "name": "Reilly Rodgers",
+    "big": "Jacob Lindsey",
+    "pledgeclass": "Fall 2022",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Ben Hant",
-    "big": "Mason Hoyt",
-    "pledgeclass": "Fall 2022"
+    "name": "Scott Shive",
+    "big": "Walker King",
+    "pledgeclass": "Fall 2022",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Chaynce Henderson",
-    "big": "Ayden Mackenzie",
-    "pledgeclass": "Fall 2022"
+    "name": "Ty Smith",
+    "big": "Austin Hoff",
+    "pledgeclass": "Fall 2022",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Chris Vaca",
-    "big": "Marcus Orwin",
-    "pledgeclass": "Fall 2022"
+    "name": "Zeke Pulido",
+    "big": "Will Woods",
+    "pledgeclass": "Fall 2022",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Connor Keithly",
-    "big": "Ben Grieder",
-    "pledgeclass": "Fall 2022"
+    "name": "Braeden Russell",
+    "big": "Ben Cuny",
+    "pledgeclass": "Spring 2023",
+    "graduated": "FALSE",
+    "inactive": true
   },
   {
-    "name": "Cyrus Mirsafian",
-    "big": "Colin McMahon",
-    "pledgeclass": "Fall 2022"
+    "name": "Parker Livingston",
+    "big": "Drew Seelbach",
+    "pledgeclass": "Spring 2023",
+    "graduated": "FALSE",
+    "inactive": true
   },
   {
-    "name": "Damian Nastic",
-    "big": "Jonathan Conrad",
-    "pledgeclass": "Fall 2022"
+    "name": "Rowan Russell",
+    "big": "Will Woods",
+    "pledgeclass": "Spring 2023",
+    "graduated": "FALSE",
+    "inactive": true
   },
   {
-    "name": "Elijah Brown",
-    "big": "Sam Peterson",
-    "pledgeclass": "Fall 2022"
+    "name": "Blake Biggs",
+    "big": "Ben Cuny",
+    "pledgeclass": "Spring 2023",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Evan Leach",
-    "big": "Will Tucker",
-    "pledgeclass": "Fall 2022"
+    "name": "Ethan White",
+    "big": "Jacob Lindsey",
+    "pledgeclass": "Spring 2023",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Garratt Army",
-    "big": "Carter Wink",
-    "pledgeclass": "Fall 2022"
+    "name": "Jackson Neely",
+    "big": "Baylin Navarro",
+    "pledgeclass": "Spring 2023",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Garrett Gattis",
-    "big": "Jacob Nanquil",
-    "pledgeclass": "Fall 2022"
+    "name": "Omar Garcia",
+    "big": "Dawson Mack",
+    "pledgeclass": "Spring 2023",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Ian White",
-    "big": "Kent Bourgoing",
-    "pledgeclass": "Fall 2022"
+    "name": "Roshan Patel",
+    "big": "Ty Smith",
+    "pledgeclass": "Spring 2023",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Ivan Hernandez",
-    "big": "Josh Eidam",
-    "pledgeclass": "Fall 2022"
+    "name": "Connor Tindall",
+    "big": "Freddy Kinney",
+    "pledgeclass": "Fall 2023",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Jake Ramos",
-    "big": "Kody Lamb",
-    "pledgeclass": "Fall 2022"
+    "name": "Evan Stroupe",
+    "big": "Zeke Pulido",
+    "pledgeclass": "Fall 2023",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "James Cessna",
-    "big": "Andrew Luff",
-    "pledgeclass": "Fall 2022"
+    "name": "Grant Watts",
+    "big": "Josh Lane",
+    "pledgeclass": "Fall 2023",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Jin Ong",
-    "big": "Brian Taylor",
-    "pledgeclass": "Fall 2022"
+    "name": "Jack Robinson",
+    "big": "Zeke Pulido",
+    "pledgeclass": "Fall 2023",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Josh Gurdak",
-    "big": "Cole McQuinn",
-    "pledgeclass": "Fall 2022"
+    "name": "Joe Corcoran",
+    "big": "Freddy Kinney",
+    "pledgeclass": "Fall 2023",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Luke Admire",
-    "big": "Jackson Weldon",
-    "pledgeclass": "Fall 2022"
+    "name": "Keigan Potter",
+    "big": "Scott Shive",
+    "pledgeclass": "Fall 2023",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Marcus Lansing",
-    "big": "Brendan McMahon",
-    "pledgeclass": "Fall 2022"
+    "name": "Sean Parkerson",
+    "big": "Drew Seelbach",
+    "pledgeclass": "Fall 2023",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Michael Sorooshian",
-    "big": "Alvin Hadley",
-    "pledgeclass": "Fall 2022"
+    "name": "Andrew Murphy",
+    "big": "David Randall",
+    "pledgeclass": "Fall 2023",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Nick Costantini",
-    "big": "Johnny Bhaskar",
-    "pledgeclass": "Fall 2022"
+    "name": "Andy Moore",
+    "big": "Andrew King",
+    "pledgeclass": "Fall 2023",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Noah Maris",
-    "big": "Judah Chambers",
-    "pledgeclass": "Fall 2022"
+    "name": "Blaine Barlow",
+    "big": "Cam Moore",
+    "pledgeclass": "Fall 2023",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Parker Jones",
-    "big": "Quinn Hilger",
-    "pledgeclass": "Fall 2022"
+    "name": "Cam Gifford",
+    "big": "Omar Garcia",
+    "pledgeclass": "Fall 2023",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Robbie Hall",
-    "big": "Gio Villalobos",
-    "pledgeclass": "Fall 2022"
+    "name": "Carson Nash",
+    "big": "Logan Luzar",
+    "pledgeclass": "Fall 2023",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Rohan Narasimhan",
-    "big": "Peter DePaul",
-    "pledgeclass": "Fall 2022"
+    "name": "Carter Monroe",
+    "big": "Andrew Beatty",
+    "pledgeclass": "Fall 2023",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Ryan Shelburne",
-    "big": "Charles Whitcomb",
-    "pledgeclass": "Fall 2022"
+    "name": "Collin Burns",
+    "big": "Josh Burrows",
+    "pledgeclass": "Fall 2023",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Ryan Welker",
-    "big": "Tucker Waters",
-    "pledgeclass": "Fall 2022"
+    "name": "David King",
+    "big": "Cam Moore",
+    "pledgeclass": "Fall 2023",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Spencer Brown",
-    "big": "Kyle Almon",
-    "pledgeclass": "Fall 2022"
+    "name": "Dodge Duckworth",
+    "big": "Camden Smith",
+    "pledgeclass": "Fall 2023",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Stephen Conrad",
-    "big": "John Reinker",
-    "pledgeclass": "Fall 2022"
+    "name": "Douglas Thacker",
+    "big": "Eli Goulet",
+    "pledgeclass": "Fall 2023",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Tully Cannon",
-    "big": "Kyle Cota",
-    "pledgeclass": "Fall 2022"
+    "name": "Ethan Wells",
+    "big": "Josh Burrows",
+    "pledgeclass": "Fall 2023",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Zayn Khan",
-    "big": "Agam Bedi",
-    "pledgeclass": "Fall 2022"
+    "name": "Evan Anderson",
+    "big": "Reilly Rodgers",
+    "pledgeclass": "Fall 2023",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Jakob Jensen",
-    "big": "Carter Wink",
-    "pledgeclass": "Winter 2023"
+    "name": "Gabe LeClaire",
+    "big": "Hunter Pope",
+    "pledgeclass": "Fall 2023",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Andrew Huang",
-    "big": "Jackson Weldon",
-    "pledgeclass": "Winter 2023"
+    "name": "Garrett Gee",
+    "big": "Josh Lane",
+    "pledgeclass": "Fall 2023",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Daniel Burns",
-    "big": "Kody Lamb",
-    "pledgeclass": "Winter 2023"
+    "name": "Garv Patel",
+    "big": "Mitch Russell",
+    "pledgeclass": "Fall 2023",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Howard Zhang",
-    "big": "Marcus Orwin",
-    "pledgeclass": "Winter 2023"
+    "name": "Grant Spain",
+    "big": "Luke Murphy",
+    "pledgeclass": "Fall 2023",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Jayden Zwern",
-    "big": "Aidan Cone",
-    "pledgeclass": "Winter 2023"
+    "name": "Henry McCormack",
+    "big": "Liam Mathis",
+    "pledgeclass": "Fall 2023",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Adam Little-Varga",
-    "big": "Cole McQuinn",
-    "pledgeclass": "Winter 2023"
+    "name": "Henry Williams",
+    "big": "Hayden Smith",
+    "pledgeclass": "Fall 2023",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Matt Hy",
-    "big": "Tully Cannon",
-    "pledgeclass": "Winter 2023"
+    "name": "Huff Friedman",
+    "big": "Kevin Osorio",
+    "pledgeclass": "Fall 2023",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Kalani Seymore",
-    "big": "Johnny Bhaskar",
-    "pledgeclass": "Winter 2023"
+    "name": "Hunter Winters",
+    "big": "Adam Sterhan",
+    "pledgeclass": "Fall 2023",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Wayne Chiang",
-    "big": "Jin Ong",
-    "pledgeclass": "Winter 2023"
+    "name": "Jacob Morgan",
+    "big": "Ty Smith",
+    "pledgeclass": "Fall 2023",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Nathan Tang",
-    "big": "Ryan Shelburne",
-    "pledgeclass": "Winter 2023"
+    "name": "Jeremy Stineman",
+    "big": "Chris Bolton",
+    "pledgeclass": "Fall 2023",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Jason Ye",
-    "big": "Jake Ramos",
-    "pledgeclass": "Winter 2023"
+    "name": "John Hollan",
+    "big": "Blake Williams",
+    "pledgeclass": "Fall 2023",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Raj Batra",
-    "big": "Oliver Whalen",
-    "pledgeclass": "Winter 2023"
+    "name": "John Walker Quillin",
+    "big": "Easton Wamble",
+    "pledgeclass": "Fall 2023",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Andrew Bistras",
-    "big": "Johnny Bhaskar",
-    "pledgeclass": "Fall 2023"
+    "name": "JT Poole",
+    "big": "Anthony Mattina",
+    "pledgeclass": "Fall 2023",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Andrew Darwin",
-    "big": "Kalani Seymore",
-    "pledgeclass": "Fall 2023"
+    "name": "Kade Benyon",
+    "big": "Isaiah Morgan",
+    "pledgeclass": "Fall 2023",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Blake Marvin",
-    "big": "Cole McQuinn",
-    "pledgeclass": "Fall 2023"
+    "name": "Noah Martin",
+    "big": "Ethan White",
+    "pledgeclass": "Fall 2023",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Bobby Balbuena",
-    "big": "Josh Gurdak",
-    "pledgeclass": "Fall 2023"
+    "name": "Preston Hyatt",
+    "big": "Logan Luzar",
+    "pledgeclass": "Fall 2023",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Brian Booher",
-    "big": "Parth Doshi",
-    "pledgeclass": "Fall 2023"
+    "name": "Reeves Hilderbrand",
+    "big": "Blake Biggs",
+    "pledgeclass": "Fall 2023",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Chad Moore",
-    "big": "Jared Patel",
-    "pledgeclass": "Fall 2023"
+    "name": "Russell Young",
+    "big": "AJ Page",
+    "pledgeclass": "Fall 2023",
+    "graduated": true,
+    "inactive": "FALSE"
   },
   {
-    "name": "George Spanodimos",
-    "big": "Jayden Zwern",
-    "pledgeclass": "Fall 2023"
+    "name": "Spencer Rea",
+    "big": "Hayden Anderson",
+    "pledgeclass": "Fall 2023",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Jackson Wooton",
-    "big": "Connor Keithly",
-    "pledgeclass": "Fall 2023"
+    "name": "Stephens Ball",
+    "big": "Reece Hodges",
+    "pledgeclass": "Fall 2023",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Jae Hall",
-    "big": "Nathan Tang",
-    "pledgeclass": "Fall 2023"
+    "name": "Walker Lake",
+    "big": "Campbell Carter",
+    "pledgeclass": "Fall 2023",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Kaito Ikeda",
-    "big": "Wayne Chiang",
-    "pledgeclass": "Fall 2023"
+    "name": "Hayden Hughes",
+    "big": "Walker Lake",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": true
   },
   {
-    "name": "Kellan Kim",
-    "big": "Zayn Khan",
-    "pledgeclass": "Fall 2023"
+    "name": "Mason Smith",
+    "big": "Andy Moore",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": true
   },
   {
-    "name": "Kyle Bruckman",
-    "big": "Tully Cannon",
-    "pledgeclass": "Fall 2023"
+    "name": "Nolan Canoy",
+    "big": "Noah Martin",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": true
   },
   {
-    "name": "Marcel Sekesan",
-    "big": "Akshyae Singh",
-    "pledgeclass": "Fall 2023"
+    "name": "Tim Monahan",
+    "big": "Russell Young",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": true
   },
   {
-    "name": "Marty Johnson",
-    "big": "Mason Hoyt",
-    "pledgeclass": "Fall 2023"
+    "name": "Will Shepherd",
+    "big": "Garrett Gee",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": true
   },
   {
-    "name": "Maxwell Loiacono",
-    "big": "Marcus Lansing",
-    "pledgeclass": "Fall 2023"
+    "name": "Adam DiFrancisco",
+    "big": "Preston Hyatt",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Mustafa Agha",
-    "big": "John Reinker",
-    "pledgeclass": "Fall 2023"
+    "name": "AJ Crowe",
+    "big": "Preston Hyatt",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Payton Pelaez",
-    "big": "Chaynce Henderson",
-    "pledgeclass": "Fall 2023"
+    "name": "Austin Pechfelder",
+    "big": "Roshan Patel",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Ryan Clark",
-    "big": "Nick Costantini",
-    "pledgeclass": "Fall 2023"
+    "name": "Blake Burford",
+    "big": "John Walker Quillin",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   },
   {
-    "name": "Yash Abhyankar",
-    "big": "Baltej Randhawa",
-    "pledgeclass": "Fall 2023"
+    "name": "Braden Montana",
+    "big": "Kade Benyon",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Braxton Portwood",
+    "big": "Huff Friedman",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Brody Collander",
+    "big": "Keigan Potter",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Carlos Hurtado",
+    "big": "Evan Stroupe",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Carter Gibbs",
+    "big": "Garrett Gee",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Colin Davis '28",
+    "big": "Garrett Rothwell",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Colton Hennesy",
+    "big": "Dodge Duckworth",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Connor Giadrosich",
+    "big": "Drew Sullivan",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Connor Myrick",
+    "big": "Carter Monroe",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "David Sudderth",
+    "big": "Freddy Kinney",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Davis Clark",
+    "big": "Jack Robinson",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Davis Owens",
+    "big": "Evan Stroupe",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Dominic Fay",
+    "big": "Douglas Thacker",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Erick Nunez",
+    "big": "Garv Patel",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Gage Oswalt",
+    "big": "Hunter Winters",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Grant Roberson",
+    "big": "Carter Monroe",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Gunner Vance",
+    "big": "Huff Friedman",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Harrison Lollar",
+    "big": "David King",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Holden Smith",
+    "big": "Blaine Barlow",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Hunter Reed",
+    "big": "Roshan Patel",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Huston Lee",
+    "big": "Jackson Neely",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Jack Bourgeois",
+    "big": "Cam Gifford",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Jack Newby",
+    "big": "Andrew Murphy",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "James Gist",
+    "big": "JT Poole",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Jaylen Green",
+    "big": "Kade Benyon",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "John Goodwin",
+    "big": "Gabe LeClaire",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "John Rushing",
+    "big": "John Hollan",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Jonathan Glass",
+    "big": "Kobe Childress",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Keygan Ammons",
+    "big": "Gabe LeClaire",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Kyle Huey",
+    "big": "Grant Spain",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Kyler Greco",
+    "big": "Noah Martin",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Landon Baxter",
+    "big": "JT Poole",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Levi Dale",
+    "big": "Collin Burns",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Liam Murphy",
+    "big": "Hunter Winters",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Luke Turner",
+    "big": "Andrew Murphy",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Mason Lusk",
+    "big": "Reeves Hilderbrand",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Mason Stokes",
+    "big": "Reilly Rodgers",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Nathan Dills",
+    "big": "Carson Nash",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Noah Dew",
+    "big": "Reece Hodges",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Patrick Keene",
+    "big": "Gabe LeClaire",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Preston Stevens",
+    "big": "Carson Nash",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Rip Pittman",
+    "big": "Douglas Thacker",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Will Janes",
+    "big": "Blaine Barlow",
+    "pledgeclass": "Fall 2024",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Aidan Tapp",
+    "big": "James Gist",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Aiden Smith",
+    "big": "Gunner Vance",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Alex Matovich",
+    "big": "John Rushing",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Andrew Olivier",
+    "big": "Colton Hennesy",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Andrew Williams",
+    "big": "Patrick Keene",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Ben Jones",
+    "big": "Erick Nunez",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Blake Shaw",
+    "big": "Jacob Morgan",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Caden Durr",
+    "big": "Noah Martin",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Caden Rhea",
+    "big": "Evan Anderson",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Caleb Cochran",
+    "big": "Braxton Portwood",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Carson Cathey",
+    "big": "Luke Turner",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Carson Kessler",
+    "big": "Braden Montana",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Chance Bray",
+    "big": "Dominic Fay",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Charlie Penny",
+    "big": "Keygan Ammons",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Charlie Sullivan",
+    "big": "Kyle Huey",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Chris Boyd",
+    "big": "Carter Gibbs",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Chris Owen",
+    "big": "John Rushing",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Cole Goodwin",
+    "big": "Harrison Lollar",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Colin Marshall",
+    "big": "John Goodwin",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Colin McPhearson",
+    "big": "Kyler Greco",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Connor Page",
+    "big": "Jaylen Green",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Cooper Pickens",
+    "big": "Jeremy Stineman",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Cristian Apostolakis",
+    "big": "Carlos Hurtado",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Cruz McCall",
+    "big": "Dominic Fay",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Cullen Hobby",
+    "big": "John Goodwin",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Drew Price",
+    "big": "Austin Pechfelder",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Ethan Goodgion",
+    "big": "Erick Nunez",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Flynn James",
+    "big": "Hunter Reed",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Freddy Cook",
+    "big": "David Sudderth",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Freddy Pacas",
+    "big": "Gunner Vance",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Gavin Stewart",
+    "big": "AJ Crowe",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Gavin Stone",
+    "big": "Holden Smith",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Grady Thomas",
+    "big": "Gage Oswalt",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Grant Mueller",
+    "big": "Adam DiFrancisco",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Griffin Lee",
+    "big": "Connor Giadrosich",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Gus Simpson",
+    "big": "Carter Gibbs",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Hayes Odom",
+    "big": "Jeremy Stineman",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Hudson Lee",
+    "big": "Rip Pittman",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Hudson Roy",
+    "big": "Adam DiFrancisco",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Isaiah Mellgren",
+    "big": "Henry McCormack",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Jack Mullins",
+    "big": "Gunner Vance",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Jake McDaniel",
+    "big": "Jaylen Green",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "James Myers",
+    "big": "Mason Stokes",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Jaxen Hostler",
+    "big": "Davis Owens",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "John Krieger",
+    "big": "Erick Nunez",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "John Travelstead",
+    "big": "Colton Hennesy",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Johnny Chatelain",
+    "big": "Kyle Huey",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Jonari Valerio",
+    "big": "Preston Stevens",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "JT Freeman",
+    "big": "James Gist",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Justin Marie",
+    "big": "Henry Williams",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Kaleb Hood",
+    "big": "Noah Dew",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Larry Johnson",
+    "big": "Austin Pechfelder",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Levi Adair",
+    "big": "Nathan Dills",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Luke Calfee",
+    "big": "Grant Roberson",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Madden Brown",
+    "big": "Mason Lusk",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Mark Barben",
+    "big": "Braxton Portwood",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Markus Pope",
+    "big": "Liam Murphy",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Mateo Rivera",
+    "big": "Jack Newby",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Max Taunton",
+    "big": "Kyler Greco",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Michael Matte",
+    "big": "Luke Turner",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Morgan Hughes",
+    "big": "Liam Murphy",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Nathan Hackett",
+    "big": "Holden Smith",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Noah Hale",
+    "big": "Levi Dale",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Noah Hobbs",
+    "big": "Jack Newby",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Nolan Broadway",
+    "big": "Gage Oswalt",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "RJ Granade",
+    "big": "John Goodwin",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Ryan Gardner",
+    "big": "Huston Lee",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Sam Anderton",
+    "big": "Jacob Morgan",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Stephen Gore",
+    "big": "Will Janes",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Tate Martin",
+    "big": "Noah Dew",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Tobias Cuevas",
+    "big": "Patrick Keene",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Trace Parsons",
+    "big": "Liam Murphy",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Trae McDavid",
+    "big": "Davis Clark",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Trent Smith",
+    "big": "Luke Turner",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Trenton Schorey",
+    "big": "Preston Stevens",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Trey Matherne",
+    "big": "Huston Lee",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Tyler Quinton",
+    "big": "Preston Stevens",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "Will Guy",
+    "big": "Jonathan Glass",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "name": "William Parker",
+    "big": "Noah Dew",
+    "pledgeclass": "Fall 2025",
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
+  },
+  {
+    "graduated": "FALSE",
+    "inactive": "FALSE"
   }
 ];
 /* istanbul ignore else */
